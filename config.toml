@@ -25,7 +25,7 @@ rss = true
 # dark mode
 defaultDark = true
 backgroundDark = "#14191E"
-backgroundImageDark = "/me/shinonome_background@4x.png"
+backgroundImageDark = "/me/shinonome_background@2x.png"
 darkLinkColor = "#005CFF"
 darkNav = true
 dark404 = true
@@ -57,9 +57,9 @@ enableSearch = true
 showSummaryCoverInPost = true
 # hasTwitterEmbed = true
 # reversePostAndAside = true
-# shareInAside = true
+shareInAside = true
 # fixedNav = true
-# collapsibleTags = true
+collapsibleTags = true
 # collapseBySummary = true
 
 [params.advanced]

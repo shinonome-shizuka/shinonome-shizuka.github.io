@@ -1,13 +1,12 @@
 ---
-title: Me
+title: '关于我'
 date: 2022-08-01T14:29:25+08:00
 lastmod: 2022-08-01T14:29:25+08:00
 draft: false
-headless: true
 ---
 
-Gamecreator产品经理，有个作家梦，游戏行业情报弱者。
+Gamecreator产品经理，有个作家梦。
 
-期待着读者。 读者是力量之源。
+游戏行业情报弱者,期待着读者与力量之源。
 
-<!--more-->
+[![图像榜单](http://bangumi.tv/chart/img/159769)](http://bangumi.tv/user/srvenx)
