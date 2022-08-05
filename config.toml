@@ -4,6 +4,7 @@ languageCode = "zh-Hans"
 defaultContentLanguage = 'zh'
 theme = 'dream'
 title = '闲人后院'
+disqusShortname = 'shinonome-shizuka-github-io'
 
 [params]
 i18n = 'zh'
@@ -17,6 +18,8 @@ motto = '横剑听风雨浸溪，无上清凉花满席。</br><span style="font-
 background = "#E3E3E3"
 # backgroundImage = "/me/background.jpg"
 linkColor = "#005CFF"
+
+rss = true
 
 # dark mode
 defaultDark = true

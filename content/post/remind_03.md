@@ -1,6 +1,6 @@
 ---
 title: '人生能暂停几次'
-date: 2022-08-01T17:30:49+08:00
+date: 2022-06-27T17:30:49+08:00
 lastmod: 2022-08-01T17:30:49+08:00
 # author: Author Name
 # avatar: /img/author.jpg

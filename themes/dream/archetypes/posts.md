@@ -5,7 +5,7 @@ lastmod: {{ .Date }}
 author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: /img/cover.jpg
+cover: '/img/cover.jpg'
 categories:
   - category1
 tags:
