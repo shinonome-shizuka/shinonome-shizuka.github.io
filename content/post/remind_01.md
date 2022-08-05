@@ -5,7 +5,7 @@ lastmod: 2022-08-01T15:35:45+08:00
 # author: Author Name
 # avatar: '/my/avatar.jpg'
 # authorlink: https://author.site
-# cover: '/img/cover.jpg'
+cover: 'https://images.unsplash.com/photo-1633265486501-0cf524a07213'
 categories:
   - 随笔
 tags:
