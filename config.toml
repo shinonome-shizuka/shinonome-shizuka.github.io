@@ -4,9 +4,10 @@ languageCode = "zh-Hans"
 defaultContentLanguage = 'zh'
 theme = 'dream'
 title = '闲人后院'
-disqusShortname = 'shinonome-shizuka-github-io'
+# disqusShortname = 'shinonome-shizuka-github-io'
 
 [params]
+utterancesRepo = "shinonome-shizuka/shinonome-shizuka.github.io"
 i18n = 'zh'
 author = '東雲閑'
 avatar = '/me/shizuka_new_bbg.png'
