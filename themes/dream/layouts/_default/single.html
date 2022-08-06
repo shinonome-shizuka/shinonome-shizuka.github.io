@@ -44,7 +44,7 @@
         <h1 class="ui large header">
           {{- .Title -}}
           <div class="sub header">
-            <div class="left">
+            <div class="left timeSummary">
               @
               {{ if isset .Params "author" }}
                 {{ if isset .Params "authorlink" }}
@@ -56,7 +56,7 @@
                 {{ .Site.Params.author }}
               {{ end }}
 
-              | {{ if .Site.Params.Experimental.jsDate }}
+              | 发布于 {{ if .Site.Params.Experimental.jsDate }}
                   <span data-format="luxon">{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</span>
                 {{ else }}
                   {{ if eq .Site.Language.Lang "zh" }}
@@ -69,8 +69,6 @@
                     {{ .Date.Format "Monday, Jan 2, 2006" }}
                   {{ end }}
                 {{ end }}
-
-              | {{ .ReadingTime }}{{ i18n "minuteRead" }}
 
               {{ if ne .Params.nolastmod true }}
               | {{ i18n "updateAt" }}
@@ -89,11 +87,14 @@
                 {{ end }}
               {{ end }}
             </div>
-
             {{ if not $shareInAside }}
             {{ partial "share.html" . }}
             {{ end }}
           </div>
+          <div class="left wordcount">共计 {{ .WordCount }}{{ i18n "wordCount" }} ，约 {{ .ReadingTime }}{{ i18n "minuteRead" }}</div>
+          {{ if and .Params.Callout .Site.Params.calloutInPost}}
+          <div class="left callout"><span class="callout-emoji"></span>{{ .Params.Callout }}</div>
+          {{ end }}
         </h1>
       </header>
 

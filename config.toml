@@ -5,14 +5,15 @@ defaultContentLanguage = 'zh'
 theme = 'dream'
 title = '闲人后院'
 # disqusShortname = 'shinonome-shizuka-github-io'
+hasCJKLanguage = true
 
 [params]
+calloutInPost = true
 utterancesRepo = "shinonome-shizuka/shinonome-shizuka.github.io"
 i18n = 'zh'
 author = '東雲閑'
 avatar = '/me/shizuka_new_bbg.png'
 description = '闲人后院，闲人语。'
-hasCJKLanguage = true
 headerTitle = '闲人后院门不闭'
 motto = '横剑听风雨浸溪，无上清凉花满席。</br><span style="font-size:12px;color: gray;">微信公众号 @shizuka_backyard</span>'
 
@@ -57,10 +58,10 @@ enableSearch = true
 showSummaryCoverInPost = true
 # hasTwitterEmbed = true
 # reversePostAndAside = true
-shareInAside = true
+# shareInAside = true
 # fixedNav = true
 collapsibleTags = true
-# collapseBySummary = true
+collapseBySummary = true
 
 [params.advanced]
 customCSS = ["css/custom.css"]
