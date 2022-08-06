@@ -6,6 +6,7 @@ lastmod: 2022-08-05T14:02:39+08:00
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: 'https://images.unsplash.com/photo-1620321268133-000441fd17aa'
+callout: '完稿于广州。'
 categories:
   - 随笔
 tags:
@@ -13,8 +14,6 @@ tags:
   - 爱情
 draft: false
 ---
-
-> 于广州完稿。
 
 故事的开始很简单，结尾也很简单。
 

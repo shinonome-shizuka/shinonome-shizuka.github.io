@@ -6,6 +6,7 @@ lastmod: 2022-08-05T13:54:43+08:00
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: 'https://images.unsplash.com/photo-1644413405683-ffc59956cac1'
+callout: '原文写完时间已经无法确定。'
 categories:
   - 读后感
 tags:
@@ -13,8 +14,6 @@ tags:
   - 思考
 draft: false
 ---
-
-> 原文写完时间已经无法确定。
 
 《汤岛之恋》应该是我最喜欢的爱情悲剧故事。
 

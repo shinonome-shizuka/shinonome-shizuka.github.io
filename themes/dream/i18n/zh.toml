@@ -32,7 +32,7 @@ other = "{{ .Count }}篇文章"
 other = "社交链接"
 
 [minuteRead]
-other = " 分钟可以完成阅读。"
+other = " 分钟可以读完"
 
 [updateAt]
 other = "更新于"
