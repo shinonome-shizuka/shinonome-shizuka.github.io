@@ -78,4 +78,36 @@
     </a>
   </div>
   {{ end }}
+
+  {{ if .Site.Params.cowlevel }}
+  <div class="item">
+    <a href="https://cowlevel.net/{{ .Site.Params.cowlevel }}" target="_blank">
+      <i class="{{ .IconSize }} gamepad icon" title="Cowlevel"></i>
+    </a>
+  </div>
+  {{ end }}
+
+  {{ if .Site.Params.steam }}
+  <div class="item">
+    <a href="https://steamcommunity.com/id/{{ .Site.Params.steam }}" target="_blank">
+      <i class="{{ .IconSize }} steam icon" title="Steam"></i>
+    </a>
+  </div>
+  {{ end }}
+
+  {{ if .Site.Params.psnine }}
+  <div class="item">
+    <a href="https://psnine.com/psnid/{{ .Site.Params.playstation }}" target="_blank">
+      <i class="{{ .IconSize }} playstation icon" title="PSNine"></i>
+    </a>
+  </div>
+  {{ end }}
+
+  {{ if .Site.Params.bandcamp }}
+  <div class="item">
+    <a href="https://bandcamp.com/{{ .Site.Params.bandcamp }}" target="_blank">
+      <i class="{{ .IconSize }} bandcamp icon" title="Bandcamp"></i>
+    </a>
+  </div>
+  {{ end }}
 </nav>
