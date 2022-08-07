@@ -8,6 +8,7 @@ title = '闲人后院'
 hasCJKLanguage = true
 
 [params]
+accessCount = true
 calloutInPost = true
 utterancesRepo = "shinonome-shizuka/shinonome-shizuka.github.io"
 i18n = 'zh'
@@ -32,7 +33,7 @@ darkNav = true
 dark404 = true
 
 email = "shinonomeshizuka@writeme.com"
-# twitter = "g1eny0ung"
+twitter = "Kakoii_Souryo"
 facebook = "Shinonome.Shizuka"
 instagram = "whitemage.null"
 # mastodon = ""
@@ -69,7 +70,7 @@ collapsibleTags = true
 collapseBySummary = true
 
 [params.advanced]
-customCSS = ["css/custom.css"]
+# customCSS = ["css/custom.css"]
 # customJSBefore = []
 # customJS = []
 

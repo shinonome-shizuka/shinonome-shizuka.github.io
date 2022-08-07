@@ -19,9 +19,21 @@
     color: rgba(255,255,255,.9);
 }
 
+.callout-summary {
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 0;
+}
+
 .callout ::before {
     content: '🎯';
     margin-right: 0.75rem;
+}
+
+.description > blockquote {
+    border-left: #555 5px solid;
+    padding-left: 10px;
+    margin-left: 5px;
 }
 
 .timeSummary {
