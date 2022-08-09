@@ -6,7 +6,7 @@ theme = 'dream'
 title = '闲人后院'
 # disqusShortname = 'shinonome-shizuka-github-io'
 hasCJKLanguage = true
-googleAnalytics = "G-L03SKC4VET"
+googleAnalytics = "GL03SKC4VET"
 
 [params]
 accessCount = true
