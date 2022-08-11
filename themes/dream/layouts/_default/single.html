@@ -93,7 +93,7 @@
           </div>
           <div class="left wordcount">共计 {{ .WordCount }}{{ i18n "wordCount" }} ，约 {{ .ReadingTime }}{{ i18n "minuteRead" }}</div>
           {{ if and .Params.Callout .Site.Params.calloutInPost}}
-          <div class="left callout"><span class="callout-emoji"></span>{{ .Params.Callout }}</div>
+          <div class="left callout"><span class="callout-emoji"></span>{{ .Params.Callout | safeHTML }}</div>
           {{ end }}
         </h1>
       </header>

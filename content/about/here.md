@@ -13,7 +13,7 @@ draft: false
 
 Control is Power.
 
-Disorder is Inspiration.
+Thinking is Ruler.
 
 <!--more-->
 

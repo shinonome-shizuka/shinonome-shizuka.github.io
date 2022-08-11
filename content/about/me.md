@@ -9,4 +9,4 @@ Gamecreator产品经理，有个作家梦。
 
 游戏行业情报弱者，期待着读者与力量之源。
 
-[![图像榜单](http://bangumi.tv/chart/img/159769)](http://bangumi.tv/user/srvenx)
+[![图像榜单](https://bangumi.tv/chart/img/159769)](https://bangumi.tv/user/srvenx)

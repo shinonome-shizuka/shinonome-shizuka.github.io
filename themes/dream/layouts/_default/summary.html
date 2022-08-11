@@ -29,7 +29,7 @@
       </p>
     </div>
     {{ if and .Params.Callout .Site.Params.calloutInPost}}
-    <div class="left callout callout-summary"><span class="callout-emoji"></span>{{ .Params.Callout }}</div>
+    <div class="left callout callout-summary"><span class="callout-emoji"></span>{{ .Params.Callout | safeHTML }}</div>
     {{ end }}
     <div class="description">
       {{ .Summary | emojify | safeHTML }}
