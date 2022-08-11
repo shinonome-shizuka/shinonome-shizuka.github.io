@@ -4,7 +4,8 @@ date: 2020-07-13T17:49:33+08:00
 lastmod: 2022-08-11T17:49:33+08:00
 # author: Author Name
 # avatar: /img/author.jpg
-authorlink: 'https://cowlevel.net/article/2052432'
+# authorlink: ''
+referlink: 'https://cowlevel.net/article/2052432'
 cover: 'https://pic1.cdncl.net/game/user_upload/Shinonomeshizuka/cecc4f50fbd1838455d15d63c618e2c1.jpeg'
 callout: '发布在奶牛关的文章备份。或许时代早就变了。'
 categories:

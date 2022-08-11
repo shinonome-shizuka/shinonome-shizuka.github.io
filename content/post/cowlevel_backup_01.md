@@ -4,7 +4,7 @@ date: 2021-08-05T17:03:52+08:00
 lastmod: 2021-08-05T17:05:02+08:00
 # author: Author Name
 # avatar: /img/author.jpg
-authorlink: 'https://cowlevel.net/article/2160568'
+referlink: 'https://cowlevel.net/article/2160568'
 cover: 'https://eacache.s.konaminet.jp/game/2dx/29/images/top/top_sp.jpg'
 callout: '发布在奶牛关的文章备份。或许时代早就变了。'
 categories:

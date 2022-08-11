@@ -4,7 +4,7 @@ date: 2021-04-22T17:45:13+08:00
 lastmod: 2022-04-22T18:00:14+08:00
 # author: Author Name
 # avatar: /img/author.jpg
-authorlink: 'https://cowlevel.net/article/2149409'
+referlink: 'https://cowlevel.net/article/2149409'
 cover: 'https://images.unsplash.com/photo-1586734565008-fbdbc166fd6c'
 callout: '发布在奶牛关的文章备份。或许时代早就变了。'
 categories:
