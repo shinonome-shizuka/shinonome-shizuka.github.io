@@ -15,7 +15,7 @@ tags:
 draft: false
 ---
 
-本文还是来自那个日基的博客：[サファリドットコム](https://the-safari.com/)。
+本文还是来自那个日基的博客：[サファリドットコム](https://the-safari.com/2913)。
 
 由于词汇比较多，文章篇幅比较长，以我自己狗啃的日语水平不足以完全看懂，所以这次我还是拜托了日语系的好友[@獅子堂ニャコ](https://cowlevel.net/people/nymiao)帮忙翻译。
 
