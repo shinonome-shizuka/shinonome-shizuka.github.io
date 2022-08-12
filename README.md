@@ -18,3 +18,7 @@ Thinking is Ruler.
 
 - [ ] 需要调整白天模式下callout的样式
   - [ ] 琢磨明白原有主题的颜色切换原理
+
+## Article To-do
+- [ ] 重写DJMAX新手入坑指南
+- [ ] 重写IIDX好弟弟笔记

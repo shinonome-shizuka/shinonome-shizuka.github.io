@@ -6,7 +6,7 @@ lastmod: 2022-08-10T17:05:43+08:00
 # avatar: /img/author.jpg
 referlink: 'https://cowlevel.net/article/2017694'
 cover: 'https://media.vgm.io/products/12/10121/10121-1616309197.png'
-callout: '发布在奶牛关的文章备份。或许时代早就变了。'
+callout: '发布在奶牛关的文章备份，近日会重写。'
 categories:
   - 奶牛关
 tags:
