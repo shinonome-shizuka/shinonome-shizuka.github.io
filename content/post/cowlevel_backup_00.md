@@ -7,6 +7,11 @@ lastmod: 2022-08-10T17:05:43+08:00
 referlink: 'https://cowlevel.net/article/2017694'
 cover: 'https://media.vgm.io/products/12/10121/10121-1616309197.png'
 callout: '发布在奶牛关的文章备份，近日会重写。'
+keywords:
+  - IIDX
+  - HDD
+  - 音游
+  - 教学
 categories:
   - 奶牛关
 tags:

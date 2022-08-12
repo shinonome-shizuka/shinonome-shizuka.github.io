@@ -7,6 +7,10 @@ lastmod: 2022-04-22T18:00:14+08:00
 referlink: 'https://cowlevel.net/article/2149409'
 cover: 'https://images.unsplash.com/photo-1586734565008-fbdbc166fd6c'
 callout: '发布在奶牛关的文章备份。或许时代早就变了。'
+keywords:
+  - 酒桌
+  - 酒令游戏
+  - 游戏
 categories:
   - 奶牛关
 tags:

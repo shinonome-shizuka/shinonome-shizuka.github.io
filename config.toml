@@ -1,5 +1,5 @@
 baseURL = 'https://shinonome-shizuka.github.io'
-copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。'
+copyright = '我说了算，不可商用，转载署名，标注原地址即可。</br>@Copyright 2022 Shinonome-Studio & Shinonome Shizuka'
 # googleAnalytics = '326384852'
 languageCode = 'zh-Hans'
 defaultContentLanguage = 'zh'
@@ -18,7 +18,7 @@ avatar = '/me/shizuka_new_bbg.png'
 description = '東雲閑,东云闲,IIDX,DJMAX,游戏,東雲研究所,散文,诗歌,闲人,闲学家,闲学,闲情逸致,闲情雅趣,酒,shinonome,shizuka,shinonome shizuka'
 headerTitle = '闲人后院门不闭'
 motto = '横剑听风雨浸溪，无上清凉花满席。</br><span style="font-size:12px;color: gray;">微信公众号 @shizuka_backyard</span>'
-
+maxTags = 5
 background = "#E3E3E3"
 # backgroundImage = "/me/background.jpg"
 linkColor = "#005CFF"
@@ -28,7 +28,7 @@ rss = true
 # dark mode
 defaultDark = true
 backgroundDark = "#14191E"
-backgroundImageDark = "/me/shinonome_background@2x.png"
+backgroundImageDark = "http://tva1.sinaimg.cn/large/006R15FXgy1h54inxaza8j32yo1nnqv6.jpg"
 darkLinkColor = "#005CFF"
 darkNav = true
 dark404 = true

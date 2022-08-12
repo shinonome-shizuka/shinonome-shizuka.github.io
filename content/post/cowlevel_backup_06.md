@@ -8,6 +8,10 @@ lastmod: 2019-12-29T20:57:25+08:00
 referlink: 'https://cowlevel.net/article/1922001'
 cover: 'http://tva1.sinaimg.cn/large/006R15FXgy1h54a2i00ztj31hc0u0wju.jpg'
 callout: '发布在牛关的文章备份，打算重写一下这篇。'
+keywords:
+  - DJMAX
+  - 音游
+  - 教学
 categories:
   - 奶牛关
 tags:

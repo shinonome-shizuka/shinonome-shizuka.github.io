@@ -8,6 +8,10 @@ lastmod: 2019-03-13T01:02:08+08:00
 referlink: 'https://cowlevel.net/article/2035356'
 cover: 'http://tva1.sinaimg.cn/large/006R15FXgy1h54h6qcwhfj30xc0irdq6.jpg'
 callout: '发布在奶牛关的文章备份。'
+keywords:
+  - IIDX
+  - 指法
+  - 音游
 categories:
   - 奶牛关
 tags:
