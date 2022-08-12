@@ -6,7 +6,7 @@ lastmod: 2020-05-21T02:18:32+08:00
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 referlink: 'https://cowlevel.net/game/CODE_VEIN/review/3763654'
-cover: '/img/cover.jpg'
+cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h54lq8b3yfj31hc0u01kx.jpg'
 description: '噬神者,噬血代码,codevein,评测,東雲研究所,東雲閑'
 callout: '发布于奶牛关的评测备份。'
 categories:
