@@ -7,7 +7,7 @@ lastmod: 2019-08-16T00:14:26+08:00
 # authorlink: https://author.site
 referlink: 'https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=35018201'
 callout: '从前在小黑盒随便写的评论。'
-cover: '/img/cover.jpg'
+cover: 'https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xriggk3j30sg0lbqd3.jpg'
 categories:
   - 观后感
   - 小黑盒
