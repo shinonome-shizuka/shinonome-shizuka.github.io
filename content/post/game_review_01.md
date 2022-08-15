@@ -14,7 +14,6 @@ categories:
   - 评测
 tags:
   - 游戏
-  - GALGAME
 draft: false
 ---
 

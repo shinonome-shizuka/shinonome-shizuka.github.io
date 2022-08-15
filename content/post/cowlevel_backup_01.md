@@ -132,7 +132,7 @@ IIDX有的谱面存在激烈的BPM变化，为了应对这种谱面模式应运�
 
 指IIDX中的挡板设置SUDDEN+，可以开启上挡板或者下挡板。下挡板可以抬高判定线，上挡板则可以在降低谱面速度的情况下减少视野中的音符数量，以便读谱。
 
-具体可以参考这篇文章：[黑核翻译#1：IIDX与下落式音游的读谱](https://cowlevel.net/article/2032185)
+具体可以参考这篇文章：[黑核翻译#1：IIDX与下落式音游的读谱](https://shinonome-shizuka.github.io/post/cowlevel_backup_09/)
 
 ### 音符数量（白数字）
 
@@ -185,13 +185,10 @@ IIDX中难度欺诈尤为常见，所以直接以谱面难度标识来做玩家�
 
 指将谱面水平划分而不是分块认识的读谱方式，相对的还有纵向读谱方式。
 
-![13トリル+αと認識，纵向读谱方式](https://the-safari.com/wp-content/uploads/2011/12/gigadelic.png)
 
-13トリル+αと認識，纵向读谱方式
-
-![横向读谱方式](https://the-safari.com/wp-content/uploads/2011/12/gugadelic2.png)
-
-横向读谱方式
+纵向读谱方式</br>13トリル+αと認識 | 横向读谱方式
+--|--
+![13トリル+αと認識，纵向读谱方式](https://the-safari.com/wp-content/uploads/2011/12/gigadelic.png) | ![横向读谱方式](https://the-safari.com/wp-content/uploads/2011/12/gugadelic2.png)
 
 作者认为：因为人脑不太擅长处理过于复杂的内容，横向读谱更容易将谱面拆解为简易模式。因此，在后续的高难谱面中可能会有更好的表现。
 

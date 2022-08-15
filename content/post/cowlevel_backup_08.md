@@ -214,5 +214,5 @@ A | B | C | D
 
 * * *
 
-上一篇翻译： [黑核翻译 #1](https://cowlevel.net/article/2032185)
+上一篇翻译： [清凉翻译 #1](https://shinonome-shizuka.github.io/post/cowlevel_backup_09/)
 下一篇翻译： [清凉翻译 #3](https://shinonome-shizuka.github.io/post/cowlevel_backup_01/)
