@@ -43,9 +43,7 @@
       <header>
         <h1 class="ui large header">
           {{- .Title -}} 
-          {{ if .Params.referlink }}
-          <span style="font-size: 12px;font-weight: normal; margin-left: 12px;"><a href="{{ .Params.referlink }}">原文链接</a></span>
-          {{ end }}
+
           <div class="sub header">
             <div class="left timeSummary">
               @
@@ -94,7 +92,11 @@
             {{ partial "share.html" . }}
             {{ end }}
           </div>
-          <div class="left wordcount">共计 {{ .WordCount }}{{ i18n "wordCount" }} ，约 {{ .ReadingTime }}{{ i18n "minuteRead" }}</div>
+          <div class="left wordcount">共计 {{ .WordCount }}{{ i18n "wordCount" }} ，约 {{ .ReadingTime }}{{ i18n "minuteRead" }}
+            {{ if .Params.referlink }}
+            <span style="font-size: 12px;font-weight: normal; margin-left: 12px;"><a href="{{ .Params.referlink }}">原文链接</a></span>
+            {{ end }}
+          </div>
           {{ if and .Params.Callout .Site.Params.calloutInPost}}
           <div class="left callout"><span class="callout-emoji"></span>{{ .Params.Callout | safeHTML }}</div>
           {{ end }}
