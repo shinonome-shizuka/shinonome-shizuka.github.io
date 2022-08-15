@@ -19,9 +19,9 @@ tags:
 draft: false
 ---
 
-Lv 201 [TR](http://psnine.com/topic/32034) [CE](http://psnine.com/topic/33057) GG [TK](http://psnine.com/topic/33531) BS TK2 TK3 GC Deemo GF包已购入，**历时10.7个月，我白金了，开始向100%进发。**
+**历时10.7个月，我白金了，开始向100%进发。**
 
-<!-- more -->
+<!--more-->
 
 **![5cd88996d66dc8e4932c587dedd20c12.jpg](https://pic1.cdncl.net/user/Shinonomeshizuka/common_pic/5cd88996d66dc8e4932c587dedd20c12.jpg)**
 

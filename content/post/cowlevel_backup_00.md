@@ -21,7 +21,7 @@ draft: false
 
 ~~牛关竟然没有街机IIDX的条目~~
 
-<!-- more -->
+<!--more-->
 
 ## 前言
 
