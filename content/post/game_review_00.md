@@ -11,10 +11,8 @@ description: '噬神者,噬血代码,codevein,评测,東雲研究所,東雲閑'
 callout: '发布于奶牛关的评测备份。'
 categories:
   - 奶牛关
-  - 评测
 tags:
   - 游戏
-  - ARPG
 draft: false
 ---
 

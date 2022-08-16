@@ -11,7 +11,6 @@ callout: '发布在奶牛关的游戏评测备份。'
 description: '百曲,galgame,国产,评测,東雲研究所,東雲閑'
 categories:
   - 奶牛关
-  - 评测
 tags:
   - 游戏
 draft: false
