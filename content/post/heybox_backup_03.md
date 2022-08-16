@@ -12,7 +12,7 @@ categories:
   - 小黑盒
 tags:
   - 游戏
-draft: true
+draft: false
 ---
 
 > 文 | 白魔法师
