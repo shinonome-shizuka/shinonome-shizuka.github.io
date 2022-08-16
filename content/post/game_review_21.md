@@ -6,7 +6,6 @@ lastmod: 2019-05-16T12:30:13+08:00
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h58hxo8ac1j30zk0k0drg.jpg'
-callout: '内容很单调'
 categories:
   - 奶牛关
 tags:
