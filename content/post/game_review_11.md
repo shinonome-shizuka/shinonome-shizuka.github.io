@@ -1,6 +1,6 @@
 ---
 title: 'YS8通关纪念：没有对比就没有伤害'
-date: 2022-08-16T11:26:44+08:00
+date: 2018-03-12T11:26:44+08:00
 lastmod: 2022-08-16T11:26:44+08:00
 # author: Author Name
 # avatar: /img/author.jpg
