@@ -1,21 +1,22 @@
 ---
-title: 'Game_review_25'
-date: 2022-08-16T17:44:26+08:00
-lastmod: 2022-08-16T17:44:26+08:00
+title: '《魔女之家》杂谈：老二次元价值重弹'
+date: 2021-05-26T17:44:26+08:00
+lastmod: 2021-05-26T17:44:26+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: '/img/cover.jpg'
+cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h5nfvyxo5kj30dc0a00vl.jpg'
+callout: '复活之后新写的游戏分析。'
 categories:
-  - 随笔
+  - 小黑盒
 tags:
-  - 笔记
-draft: true
+  - 游戏
+draft: false
 ---
 
-# 《魔女之家》杂谈：老二次元价值重弹
-
 《魔女之家》算得上是老游戏，不少人由它入坑RPG制作大师，踏上自己的游戏制作之路。它口碑良好，一度引起圈子内的小规模现象，成为许多人忘不掉的心理阴影。中文互联网上直接搜索魔女之家，能看到许多充满了日式动画情绪的倾诉发言，也不乏二次元经典的“四大恐怖RPG之一”或者“神作”的标签化评论。
+
+<!-- more -->
 
 隔壁B站也有许多播放量相当高的视频，深度解读游戏内容。无论国内外都有UP主利用视频或者文章的形式去讨论游戏内容。新旧版游戏流程和结局都有大量的实况视频，还有我们老牌泪腺战士的经典时代眼泪——岚少实况。
 
@@ -33,11 +34,11 @@ draft: true
 
 下面是几张数据统计大厂给出的关键词排布图，第一张是百度指数，第二张是抖音指数，第三张是头条指数。
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61682be6-879e-4192-948f-3d5d2515571d/Untitled.png)
+![image.png](https://tva1.sinaimg.cn/large/006R15FXgy1h5nfsgqrhyj31zu1oc7lj.jpg)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df261799-4319-4638-ae4c-326365a5b62a/Untitled.png)
+![image.png](https://tva1.sinaimg.cn/large/006R15FXgy1h5nfsv6njbj31x01n6ws2.jpg)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6d6b69d-bc89-41b3-ab7a-e9447bd7d9e7/Untitled.png)
+![image.png](https://tva1.sinaimg.cn/large/006R15FXgy1h5nft5vsb2j31wy1n4anl.jpg)
 
 其中有几个关键词比较有趣，而且也能看得出这三个平台的用户属性。下面两张里有比较有趣的关键词：“恐怖童谣”指的应该是《明星大侦探》给人留下心理阴影的几集，不过以前也有很多鞋垫童谣；“突撸”是东北方言，指“手滑”或者“磕坏了”的情况；“你已经死了”最早是《北斗神拳》主角拳四郎的台词，有许多作品都用了这个梗，比如最近的《生化危机8》；“这都可以”则是这游戏对外行人的震惊……
 
@@ -49,7 +50,7 @@ draft: true
 
 如果按照游戏假结局——真结局——一命通关真结局的基本结构排开，基本上能得到这样一张图：
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39baae8e-55a9-423a-846c-edf7b2ca7d58/Untitled.png)
+![image.png](https://tva1.sinaimg.cn/large/006R15FXgy1h5nftl95ycj30hj0w0jt2.jpg)
 
 《动物化的后现代》中提到过，电子游戏带来的故事对应多个结局的状况是之前的媒介所不具备的，它把文本的多义性拖到台前来，并且让受众产生选择的主动性。因此，叙事必然呈现多元化发展，创作者则能够获得更大的舞台，玩家则能在一个作品的基础上获得几个不同的故事。
 

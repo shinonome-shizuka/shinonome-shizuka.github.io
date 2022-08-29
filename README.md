@@ -24,9 +24,9 @@ Thinking is Ruler.
 - [ ] 重写DJMAX新手入坑指南
 - [ ] 重写IIDX好弟弟笔记
 - [ ] 处理草稿
-  - [ ] GR_24
-  - [ ] GR_25
-  - [ ] GR_26
+  - [x] GR_24
+  - [x] GR_25
+  - [x] GR_26
   - [ ] GR_27
   - [ ] GR_28
   - [ ] GR_29
