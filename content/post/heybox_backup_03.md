@@ -1,7 +1,7 @@
 ---
 title: '《喋血房间》黑盒评测：数秒真男人终将超越死亡'
-date: 2022-08-16T14:01:58+08:00
-lastmod: 2022-08-16T14:01:58+08:00
+date: 2020-10-22T14:01:58+08:00
+lastmod: 2022-10-22T14:01:58+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site

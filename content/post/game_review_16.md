@@ -5,8 +5,8 @@ lastmod: 2022-08-16T11:56:56+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: '/img/cover.jpg'
-callout: '当然不是找林俊杰。'
+cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h5ngf0ga3ij31hc0u01ky.jpg'
+referlink: 'https://cowlevel.net/game/The_MISSING_JJ_Macfield_and_the_Island_of_Memories/review/3360098'
 categories:
   - 奶牛关
 tags:
