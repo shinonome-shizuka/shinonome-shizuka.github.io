@@ -27,8 +27,8 @@ Thinking is Ruler.
   - [x] GR_24
   - [x] GR_25
   - [x] GR_26
-  - [ ] GR_27
-  - [ ] GR_28
+  - [x] GR_27
+  - [x] GR_28
   - [ ] GR_29
   - [ ] GR_30
   - [ ] GR_31

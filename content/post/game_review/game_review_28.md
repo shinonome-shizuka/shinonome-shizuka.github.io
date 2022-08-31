@@ -1,23 +1,21 @@
 ---
-title: 'Game_review_28'
-date: 2022-08-16T17:45:50+08:00
+title: 'Virt-A-Mate：黄油中的天花板'
+date: 2022-02-01T01:57:50+08:00
 lastmod: 2022-08-16T17:45:50+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: '/img/cover.jpg'
 categories:
-  - 随笔
+  - 我乐多屋
 tags:
-  - 笔记
-draft: true
+  - 游戏
+draft: false
 ---
 
-# 「我乐多屋」Virt-A-Mate：黄油中的天花板
-
-# 「我乐多屋」Virt-A-Mate：黄油中的天花板
-
 如果你和我一样，喜欢在欧美互联网寻找各种各样的黄油，那么你肯定知道有许多原创静态SLG作者喜欢用《Honey Select 2》制作他们的角色CG。大家都知道I社实属业界良心，良心到HS2的画面渲染质量和捏人自定义水平能够满足同人作者的开发需求，这在其他游戏类别里可不算常见。
+
+<!--more-->
 
 HS2对玩家比较友好，即使没有多少游戏开发的知识，游戏的预设内容也足够设计自己需要的捏脸效果。加上其日系的渲染风格，它理所应当的成为了欧美静态SLG——仿照日本GALGAME设计——的低成本CG制作工具。
 
