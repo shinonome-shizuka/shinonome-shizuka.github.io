@@ -1,23 +1,25 @@
 ---
-title: 'Game_review_29'
-date: 2022-08-16T17:46:35+08:00
+title: '《破晓传说》评论：旧二次元的工业化之路'
+date: 2022-02-08T17:46:35+08:00
 lastmod: 2022-08-16T17:46:35+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: '/img/cover.jpg'
+cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h5q4rp84xnj31hc0u0hdt.jpg'
+images:
+ - https://tva1.sinaimg.cn/large/006R15FXgy1h5q4rp84xnj31hc0u0hdt.jpg
 categories:
-  - 随笔
+  - 我乐多屋
 tags:
-  - 笔记
-draft: true
+  - 游戏
+draft: false
 ---
 
-# 「我乐多屋」《破晓传说》评论
+你很难不说25年老资格的系列够传统，但“传统”放在当下实在不能算是褒义。
 
-## 引言
+<!--more-->
 
-你很难不说25年老资格的系列够传统，但“传统”放在当下实在不能算是褒义。无论什么游戏，他先是商品。商品会迎来无法避免的更新换代，在此之后才会找到某种“传统”。
+无论什么游戏，他先是商品。商品会迎来无法避免的更新换代，在此之后才会找到某种“传统”。
 
 “传统”之所以是传统，证明他曾经得到广泛拥趸，拥有足以流传的某种价值。这种价值有时空特定性，就好比经典名言都有前后语境，但凡跳出大门十有八九得会错意。
 
