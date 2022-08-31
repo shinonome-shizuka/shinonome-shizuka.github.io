@@ -6,11 +6,9 @@ lastmod: 2021-08-05T17:05:02+08:00
 # avatar: /img/author.jpg
 referlink: 'https://cowlevel.net/article/2160568'
 cover: 'https://eacache.s.konaminet.jp/game/2dx/29/images/top/top_sp.jpg'
+images:
+  - https://eacache.s.konaminet.jp/game/2dx/29/images/top/top_sp.jpg
 callout: '发布在奶牛关的文章备份。'
-keywords:
-  - IIDX
-  - 黑话解释
-  - 音游教学
 categories:
   - 奶牛关
 tags:

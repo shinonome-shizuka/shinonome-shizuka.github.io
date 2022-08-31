@@ -6,6 +6,8 @@ lastmod: 2020-01-13T18:40:30+08:00
 # avatar: /img/author.jpg
 # authorlink: ''
 cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h530n0uzidj30zk0k0nb0.jpg'
+images: 
+  - https://tva1.sinaimg.cn/large/006R15FXgy1h530n0uzidj30zk0k0nb0.jpg
 callout: '发布在奶牛关的文章备份。或许时代早就变了。'
 referlink: 'https://cowlevel.net/article/2091948'
 categories:

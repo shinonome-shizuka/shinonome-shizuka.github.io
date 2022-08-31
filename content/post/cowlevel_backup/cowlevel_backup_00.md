@@ -6,12 +6,9 @@ lastmod: 2022-08-10T17:05:43+08:00
 # avatar: /img/author.jpg
 referlink: 'https://cowlevel.net/article/2017694'
 cover: 'https://media.vgm.io/products/12/10121/10121-1616309197.png'
+images:
+  - https://media.vgm.io/products/12/10121/10121-1616309197.png
 callout: '发布在奶牛关的文章备份，近日会重写。'
-keywords:
-  - IIDX
-  - HDD
-  - 音游
-  - 教学
 categories:
   - 奶牛关
 tags:
@@ -19,15 +16,11 @@ tags:
 draft: false
 ---
 
-~~牛关竟然没有街机IIDX的条目~~
-
-<!--more-->
-
-## 前言
-
 > 修订的时候发现自己废话很多，各位读者可以直接略过这段。
 
 想做一点总结了，去年入坑DJMAX之后理解到了MUG的正确玩法，立刻无法自拔。
+
+<!--more-->
 
 会想试试看IIDX，一半是毛台的功劳，毕竟1.5K买的外设，不玩玩看宇宙第一困难的IIDX真的说不过去。工作之后有日呆同事一起带飞，于是他带我去机厅出勤，惊觉DMR是真的既大众又简单，适合萌新入坑。
 

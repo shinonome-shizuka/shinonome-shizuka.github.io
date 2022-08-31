@@ -7,6 +7,8 @@ lastmod: 2020-01-10T20:48:13+08:00
 # authorlink: https://author.site
 referlink: 'https://cowlevel.net/article/2071740'
 cover: 'https://images.unsplash.com/photo-1513599898445-1c34777500ab'
+images: 
+ - https://images.unsplash.com/photo-1513599898445-1c34777500ab
 callout: '发布在奶牛关的文章备份，时代早就变了。'
 categories:
   - 奶牛关

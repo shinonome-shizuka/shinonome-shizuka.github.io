@@ -7,6 +7,8 @@ lastmod: 2022-08-11T17:49:33+08:00
 # authorlink: ''
 referlink: 'https://cowlevel.net/article/2052432'
 cover: 'https://pic1.cdncl.net/game/user_upload/Shinonomeshizuka/cecc4f50fbd1838455d15d63c618e2c1.jpeg'
+images:
+  - https://pic1.cdncl.net/game/user_upload/Shinonomeshizuka/cecc4f50fbd1838455d15d63c618e2c1.jpeg
 callout: '发布在奶牛关的文章备份。或许时代早就变了。'
 categories:
   - 奶牛关
