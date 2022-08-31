@@ -7,7 +7,7 @@ lastmod: 2022-08-16T00:48:14+08:00
 # authorlink: https://author.site
 cover: 'https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xqfmxflj30u00nib29.jpg'
 images:
-  - 'https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xqfmxflj30u00nib29.jpg'
+  - https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xqfmxflj30u00nib29.jpg
 referlink: 'https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=49557111'
 callout: '《文学少女》系列书单'
 categories:

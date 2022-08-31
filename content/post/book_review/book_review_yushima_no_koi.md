@@ -7,7 +7,7 @@ lastmod: 2022-08-05T13:54:43+08:00
 # authorlink: https://author.site
 cover: 'https://images.unsplash.com/photo-1644413405683-ffc59956cac1'
 images:
-  - 'https://images.unsplash.com/photo-1644413405683-ffc59956cac1'
+  - https://images.unsplash.com/photo-1644413405683-ffc59956cac1
 callout: '原文写完时间已经无法确定。'
 categories:
   - 读后感
