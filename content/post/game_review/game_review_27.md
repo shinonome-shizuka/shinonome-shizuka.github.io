@@ -6,7 +6,8 @@ lastmod: 2022-08-16T17:45:34+08:00
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h5q3ho3uphj30u00godqj.jpg'
-callout: '社区帖子。'
+images:
+  - https://tva1.sinaimg.cn/large/006R15FXgy1h5q3ho3uphj30u00godqj.jpg
 categories:
   - 小黑盒
 tags:

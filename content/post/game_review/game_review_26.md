@@ -6,6 +6,8 @@ lastmod: 2021-09-29T17:45:06+08:00
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h5ng6es9taj30o00din54.jpg'
+images:
+ - https://tva1.sinaimg.cn/large/006R15FXgy1h5ng6es9taj30o00din54.jpg
 categories:
   - 小黑盒
 tags:

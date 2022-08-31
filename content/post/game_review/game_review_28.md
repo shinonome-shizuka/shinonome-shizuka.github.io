@@ -5,7 +5,9 @@ lastmod: 2022-08-16T17:45:50+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: '/img/cover.jpg'
+cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h5q4netjq9j32yo1o01kx.jpg'
+images:
+ - https://tva1.sinaimg.cn/large/006R15FXgy1h5q4netjq9j32yo1o01kx.jpg
 categories:
   - 我乐多屋
 tags:
