@@ -18,24 +18,30 @@ Thinking is Ruler.
 
 - [ ] 需要调整白天模式下callout的样式
   - [ ] 琢磨明白原有主题的颜色切换原理
+- [x] 增加两个音乐引用的模版
+  - [x] Bandcamp
+    - `id`: track 或 album 的 `id`
+    - `layout` 输出的样式
+      - `small` 小条
+      - `large` 大条
+      - `card` 单个图
+      - `image` 专辑列表
+  - [x] 163
+    - `id`: 音乐的id
+    - `type`: 不明，但参数填不对无法引用
+    - `layout`
+      - `player` 专辑播放器样式
+      - `card` 带专辑图的小播放器
+      - `slim` 小条播放器
+    - `auto`
+      - `1` 自动播放
+      - `0` 手动播放
 
 ## Articles To-do
 
 - [ ] 重写DJMAX新手入坑指南
 - [ ] 重写IIDX好弟弟笔记
-- [ ] 处理草稿
-  - [x] GR_24
-  - [x] GR_25
-  - [x] GR_26
-  - [x] GR_27
-  - [x] GR_28
-  - [x] GR_29
-  - [x] GR_30
-  - [ ] GR_31
-  - [ ] GR_32
-  - [x] SA_02
-  - [ ] SA_04
-  - [ ] SA_05
+- [x] 处理草稿
 - [ ] 搬运其他地方的稿子
   - [ ] [「闻言」野火工作室访谈：野火烧不尽，痛快斩妖行](https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=45339207)
   - [ ] [《微软飞行模拟2020》黑盒评测：飞向地平线的彼方](https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=44393519)
