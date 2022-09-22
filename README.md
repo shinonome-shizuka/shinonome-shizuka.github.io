@@ -1,13 +1,13 @@
-# TheWorldR4.github.io
+# shinonome-shizuka.github.io
 
 HUGO BLOG on github pages.
 
 杂文码字为主，没什么技术含量。
 
 > 重新审视表达，重新审视世界。
-> 
+>
 > 从开始写到不想写，再从不想写到开始写。
-> 
+>
 > 放弃做个普通人，挥洒我的想象，忘记自己还握着笔。
 
 Control is Power.
