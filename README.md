@@ -16,8 +16,9 @@ Thinking is Ruler.
 
 ## To-do
 
-- [ ] 需要调整白天模式下callout的样式
-  - [ ] 琢磨明白原有主题的颜色切换原理
+- [x] 需要调整白天模式下callout的样式
+  - [x] 琢磨明白原有主题的颜色切换原理
+    - [x] 启动深色界面时增加`.inverted`
 - [x] 增加两个音乐引用的模版
   - [x] Bandcamp
     - `id`: track 或 album 的 `id`
@@ -39,7 +40,10 @@ Thinking is Ruler.
 
 ## Articles To-do
 
-- [ ] 重写DJMAX新手入坑指南
-- [ ] 重写IIDX好弟弟笔记
 - [x] 处理草稿
 - [x] 搬运其他地方的稿子
+
+## Time to Rewrite
+
+- [ ] 重写DJMAX新手入坑指南
+- [ ] 重写IIDX好弟弟笔记
