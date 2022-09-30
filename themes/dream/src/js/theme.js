@@ -118,6 +118,11 @@ const darkFooter = () => {
   $('footer.ui.segment').toggleClass(dark)
 }
 
+const darkCallout = () => {
+  const callout = $('.callout');
+  callout.length && callout.toggleClass(dark);
+}
+
 function toggleDark() {
   dark404()
   darkBackground()
@@ -131,6 +136,7 @@ function toggleDark() {
   darkCategoriesSection()
   darkBack()
   darkFooter()
+  darkCallout()
 }
 
 const setThemeForUtterances = () => {
