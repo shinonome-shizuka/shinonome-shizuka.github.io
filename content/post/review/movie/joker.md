@@ -10,8 +10,8 @@ callout: '从前在小黑盒随便写的评论。'
 cover: 'https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xriggk3j30sg0lbqd3.jpg'
 categories:
   - 观后感
-  - 小黑盒
 tags:
+  - 小黑盒
   - 电影
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: '新生活，新随想，新灵感'
+title: '新生活，新灵感'
 date: 2022-11-08T19:18:08+08:00
 lastmod: 2022-11-09T10:28:08+08:00
 # author: Author Name
@@ -9,8 +9,7 @@ cover: 'https://images.unsplash.com/photo-1547734482-4640f8efb7d5'
 categories:
   - 散文
 tags:
-  - 人生
-  - 沪飘随想
+  - 沪漂随想
 draft: false
 ---
 

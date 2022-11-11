@@ -10,10 +10,10 @@ images:
   - https://images.unsplash.com/photo-1644413405683-ffc59956cac1
 callout: '原文写完时间已经无法确定。'
 categories:
-  - 读后感
+  - 书评
 tags:
+  - 文语杂韵
   - 爱情
-  - 思考
 draft: false
 ---
 
