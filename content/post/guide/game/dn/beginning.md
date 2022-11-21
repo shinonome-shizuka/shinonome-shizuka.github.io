@@ -5,7 +5,7 @@ lastmod: 2022-11-21T16:04:34+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-callout：’内容实在是太多了，根本写不完的。‘
+callout: ’内容实在是太多了，根本写不完的。‘
 cover: 'https://tva1.sinaimg.cn/large/006R15FXgy1h8d07i54usj31hc0xc7wi.jpg'
 categories:
   - 攻略
