@@ -1,8 +1,8 @@
-baseURL = 'https://shinonome-shizuka.github.io'
-copyright = '我说了算，不可商用，转载署名，标注原地址即可。</br>@Copyright 2022 Shinonome-Studio & Shinonome Shizuka'
+baseURL = 'https://blog.theworldr4.fun'
+copyright = '不可商用，转载署名，标注原地址即可。</br>@Copyright 2022 Shinonome-Studio & Shinonome Shizuka'
 # googleAnalytics = '326384852'
-languageCode = 'zh-Hans'
 defaultContentLanguage = 'zh'
+languageCode = 'zh-Hans'
 theme = 'dream'
 title = '闲人后院'
 # disqusShortname = 'shinonome-shizuka-github-io'
@@ -10,41 +10,41 @@ hasCJKLanguage = true
 
 [params]
 accessCount = true
-calloutInPost = true
-utterancesRepo = "shinonome-shizuka/shinonome-shizuka.github.io"
-i18n = 'zh'
 author = '東雲閑'
 avatar = '/me/shizuka_new_bbg.png'
+background = "#E3E3E3"
+calloutInPost = true
 description = '专注游戏、生活与文学，東雲閑的自留地。'
 headerTitle = '闲人后院门不闭'
-motto = '横剑听风雨浸溪，无上清凉花满席。</br><span style="font-size:12px;color: gray;">微信公众号 @shizuka_backyard</span>'
+i18n = 'zh'
 images = '/me/background@zetsubo.jpg'
 maxTags = 5
-background = "#E3E3E3"
+motto = '横剑听风雨浸溪，无上清凉花满席。</br><span style="font-size:12px;color: gray;">微信公众号 @shizuka_backyard</span>'
+utterancesRepo = "shinonome-shizuka/shinonome-shizuka.github.io"
 # backgroundImage = "/me/background.jpg"
 linkColor = "#005CFF"
 
 rss = true
 
 # dark mode
-defaultDark = true
 backgroundDark = "#14191E"
 backgroundImageDark = "http://tva1.sinaimg.cn/large/006R15FXgy1h54inxaza8j32yo1nnqv6.jpg"
+dark404 = true
 darkLinkColor = "#005CFF"
 darkNav = true
-dark404 = true
+defaultDark = true
 
-email = "shinonomeshizuka@writeme.com"
-twitter = "Kakoii_Souryo"
+email = "shizuka@writeme.com"
 facebook = "Shinonome.Shizuka"
 instagram = "whitemage.null"
+twitter = "Kakoii_Souryo"
 # mastodon = ""
 # linkedin = "钺杨g1eny0ung"
-github = "shinonome-shizuka"
-cowlevel = "Shinonomeshizuka"
-steam = "shinonomeshizuka"
-psnine = "SrvenX-07"
 bandcamp = "maira_yuki"
+cowlevel = "Shinonomeshizuka"
+github = "shinonome-shizuka"
+psnine = "SrvenX-07"
+steam = "shinonomeshizuka"
 # xbox = "Mostima#1965"
 # stackoverflow = "5676489/g1eny0ung"
 # codepen = "g1eny0ung"
@@ -68,8 +68,8 @@ showSummaryCoverInPost = true
 # reversePostAndAside = true
 # shareInAside = true
 # fixedNav = true
-collapsibleTags = true
 collapseBySummary = true
+collapsibleTags = true
 
 [params.advanced]
 # customCSS = ["css/custom.css"]
