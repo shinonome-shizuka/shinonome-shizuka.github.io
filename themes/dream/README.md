@@ -47,7 +47,7 @@ If you have other problems, you can also ask in the [issues](https://github.com/
 
 ## Intro
 
-Dream is a [Hugo](https://gohugo.io/) theme. I build it for [my blog](http://g1eny0ung.site).
+Dream is a [Hugo](https://gohugo.io/) theme. I build it for [my blog](https://g1eny0ung.site).
 
 The main features are **full page flip** and **masonry layout views**.~
 

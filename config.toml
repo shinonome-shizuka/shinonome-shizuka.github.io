@@ -28,7 +28,7 @@ rss = true
 
 # dark mode
 backgroundDark = "#14191E"
-backgroundImageDark = "http://tva1.sinaimg.cn/large/006R15FXgy1h54inxaza8j32yo1nnqv6.jpg"
+backgroundImageDark = "https://tva1.sinaimg.cn/large/006R15FXgy1h54inxaza8j32yo1nnqv6.jpg"
 dark404 = true
 darkLinkColor = "#005CFF"
 darkNav = true
