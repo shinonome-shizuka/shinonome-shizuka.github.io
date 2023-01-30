@@ -1,16 +1,16 @@
 ---
 title: '二月十八，天气晴'
 date: 2023-01-12T21:29:29+08:00
-lastmod: 2023-01-30T21:29:29+08:00
+lastmod: 2023-01-30T22:46:29+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: 'https://i.328888.xyz/2023/01/30/8Cc8b.md.png'
 callout: '南方周末的散文课作业，只来得及写完这篇。'
 categories:
-  - 沪漂随想
-tags:
   - 散文
+tags:
+  - 沪飘随想
   - 人文
 draft: false
 ---
