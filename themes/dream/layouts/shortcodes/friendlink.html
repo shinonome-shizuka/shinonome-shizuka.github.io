@@ -1,0 +1,19 @@
+{{- $name := .Get "name" -}}
+{{- $link := .Get "link" -}}
+{{- $desc := .Get "desc" -}}
+{{- $avat := .Get "avat" -}}
+{{- $color := .Get "color" -}}
+
+<a href="{{ $link }}">
+    <div class="frdLink"
+        style="display: flex;padding: 5px 10px 5px 10px;border: {{ $color }} solid 1px;background: {{ $color }}1A;">
+        <div class="frdAvat" style="height: 50px;"><img src="{{ $avat }}" alt="{{ $name }}" style="
+    height: 50px;"></div>
+        <div style="flex: 1;margin-left: 10px;">
+            <div class="frdName" style="color: {{ $color }};font-size: 18px;font-weight: 800;">{{ $name }}</div>
+            <div class="frdDesc" style="
+    color: white;
+">{{ $desc }}</div>
+        </div>
+    </div>
+</a>

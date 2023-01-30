@@ -1,5 +1,5 @@
 baseURL = 'https://shinonome-shizuka.github.io'
-copyright = '不可商用，转载署名，标注原地址即可。</br>@Copyright 2022 Shinonome-Studio & Shinonome Shizuka'
+copyright = '不可商用，转载署名，标注原地址即可。</br>@Copyright 2023 Shinonome-Studio & Shinonome Shizuka'
 # googleAnalytics = '326384852'
 defaultContentLanguage = 'zh'
 languageCode = 'zh-Hans'
