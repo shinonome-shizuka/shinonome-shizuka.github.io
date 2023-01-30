@@ -4,9 +4,8 @@
 {{- $avat := .Get "avat" -}}
 {{- $color := .Get "color" -}}
 
-<a href="{{ $link }}">
-    <div class="frdLink"
-        style="display: flex;padding: 5px 10px 5px 10px;border: {{ $color }} solid 1px;background: {{ $color }}1A;">
+<a href="{{ $link }}" class="frdLink" style="margin-bottom: 10px; display:block;">
+    <div class="frd" style="display: flex;padding: 10px;border: {{ $color }} solid 1px;background: {{ $color }}1A;">
         <div class="frdAvat" style="height: 50px;"><img src="{{ $avat }}" alt="{{ $name }}" style="
     height: 50px;"></div>
         <div style="flex: 1;margin-left: 10px;">
