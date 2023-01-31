@@ -1,7 +1,7 @@
 <nav class="ui secondary menu dream-menu dream-socials">
   {{ if .Site.Params.rss }}
   <div class="item">
-    <a href="{{ "index.xml" | relLangURL }}">
+    <a href="{{ " index.xml" | relLangURL }}">
       <i class="{{ .IconSize }} rss square icon" title="RSS"></i>
     </a>
   </div>
@@ -95,7 +95,7 @@
   </div>
   {{ end }}
 
-  {{ if .Site.Params.psnine }}
+  {{ if .Site.Params.playstation }}
   <div class="item">
     <a href="https://psnine.com/psnid/{{ .Site.Params.playstation }}" target="_blank">
       <i class="{{ .IconSize }} playstation icon" title="PSNine"></i>
