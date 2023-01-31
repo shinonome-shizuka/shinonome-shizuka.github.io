@@ -12,14 +12,14 @@ HUGO BLOG on github pages.
 
 Control is Power.
 
-Thinking is Ruler.
+Thinking is Reaper.
 
 ## To-do
 
 - [x] 需要调整白天模式下callout的样式
   - [x] 琢磨明白原有主题的颜色切换原理
     - [x] 启动深色界面时增加`.inverted`
-- [x] 增加两个音乐引用的模版
+- [x] 增加两个音乐引用的shortcodes
   - [x] Bandcamp
     - `id`: track 或 album 的 `id`
     - `layout` 输出的样式
@@ -37,6 +37,14 @@ Thinking is Ruler.
     - `auto`
       - `1` 自动播放
       - `0` 手动播放
+- [x] 友链shortcodes
+  - `name`：链接主标题
+  - `link`：跳转链接
+  - `desc`：链接副标题
+  - `color`：边框及背景色
+  - `avat`：主头像，50x50
+- [ ] 引入微信JSSDK，配置分享操作时的标题、缩略图抓取
+  - [ ] 最好能做成页面按钮
 
 ## Articles To-do
 

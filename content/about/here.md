@@ -13,7 +13,7 @@ draft: false
 
 Control is Power.
 
-Thinking is Ruler.
+Thinking is Reaper.
 
 <!--more-->
 

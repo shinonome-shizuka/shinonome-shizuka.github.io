@@ -7,7 +7,7 @@ draft: false
 
 {{<friendlink name="ichika" link="https://ichika.cc" desc="Hello,gamer!" avat="https://cdn.ichika.cc/page/HeadIcon.jpg" color="#49A6E9">}}
 
-友链申请，[邮箱](shizuka@writeme.com)伺候。
+友链申请，[邮箱](mailto:shizuka@writeme.com)伺候。
 
 ```YAML
 name:
