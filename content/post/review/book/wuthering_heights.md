@@ -11,7 +11,7 @@ images:
 referlink: 'https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=49557111'
 callout: '《文学少女》系列书单'
 categories:
-  - 书评
+  - 感想
 tags:
   - 文语杂韵
   - 爱情

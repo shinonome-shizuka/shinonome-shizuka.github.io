@@ -10,7 +10,7 @@ images:
   - https://images.unsplash.com/photo-1644413405683-ffc59956cac1
 callout: '原文写完时间已经无法确定。'
 categories:
-  - 书评
+  - 感想
 tags:
   - 文语杂韵
   - 爱情
