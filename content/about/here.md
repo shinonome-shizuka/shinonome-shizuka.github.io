@@ -11,9 +11,7 @@ draft: false
 
 放弃做个普通人，挥洒我的想象，忘记自己还握着笔。
 
-Control is Power.
-
-Thinking is Reaper.
+尽管因缘际会而开始写作，不妨从现在开始真的选择写作。
 
 <!--more-->
 
