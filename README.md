@@ -54,4 +54,4 @@ Thinking is Reaper.
 ## Time to Rewrite
 
 - [ ] 重写DJMAX新手入坑指南
-- [ ] 重写IIDX好弟弟笔记
+- [x] 重写IIDX好弟弟笔记
