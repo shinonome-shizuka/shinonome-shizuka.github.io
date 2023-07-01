@@ -5,10 +5,8 @@ lastmod: 2022-08-01T14:29:25+08:00
 draft: false
 ---
 
-即将失业，有个作家梦。
+已经失业，重振精神。
 
-游戏行业情报弱者，期待着戏剧化的人生。
+游戏行业情报弱者，期待着读者。
 
-生活弱者，期待着读者。
-
-[![图像榜单](https://bangumi.tv/chart/img/159769)](https://bangumi.tv/user/srvenx)
+<iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/60078800/activity-summary/2e6bb2795998475662c48bb090980bb4ce6c4e85'></iframe>
