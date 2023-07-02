@@ -12,8 +12,6 @@ HUGO BLOG on github pages.
 
 Control is Power.
 
-Thinking is Reaper.
-
 ## To-do
 
 - [x] 需要调整白天模式下callout的样式
@@ -43,8 +41,10 @@ Thinking is Reaper.
   - `desc`：链接副标题
   - `color`：边框及背景色
   - `avat`：主头像，50x50
-- [ ] 引入微信JSSDK，配置分享操作时的标题、缩略图抓取
-  - [ ] 最好能做成页面按钮
+- [x] Strava数据shortcodes
+  - `id`：strava账号id，从小组件src里复制即可
+  - `token`：授权token，从小组件src里复制即可
+  - `type`：`activity-summary`或者`latest-rides`
 
 ## Articles To-do
 
