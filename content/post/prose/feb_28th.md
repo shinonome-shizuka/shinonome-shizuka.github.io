@@ -5,7 +5,7 @@ lastmod: 2023-01-31T10:37:46+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: 'https://i.328888.xyz/2023/01/30/8Cc8b.md.png'
+cover: 'https://images.unsplash.com/photo-1528722828814-77b9b83aafb2'
 callout: '南方周末的散文课作业，只来得及写完这篇。'
 categories:
   - 散文
