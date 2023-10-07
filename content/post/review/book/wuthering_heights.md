@@ -5,9 +5,9 @@ lastmod: 2022-08-16T00:48:14+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: 'https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xqfmxflj30u00nib29.jpg'
+cover: 'https://i.imgs.ovh/2023/10/07/LxZID.jpeg'
 images:
-  - https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xqfmxflj30u00nib29.jpg
+  - https://i.imgs.ovh/2023/10/07/LxZID.jpeg
 referlink: 'https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=49557111'
 callout: '《文学少女》系列书单'
 categories:
@@ -30,8 +30,6 @@ draft: false
 
 我最终能幸运地“初次”阅读整个故事，百感交集。
 
-![image.png](https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xo2ary1j3064086dgy.jpg)
-
 无论是希兹克里夫还是大小凯瑟琳，都不能算是现代意义上的正常人。考虑到故事的时代背景是信息尚未爆炸的时代，在封闭的信息环境里会出现这样的故事本身就有很高的可信度，更别说这几个角色的描写真的栩栩如生，细腻真实。
 
 艾米丽·勃朗特真的洞察人心，有着女孩子共性中的细腻，但是她又没有越过人性，自封上帝。
@@ -43,8 +41,6 @@ draft: false
 我和小姐姐聊天的时候说到这书，她说希兹克里夫这款在言情小说里算是经典形象，他深情又疯魔，只是作为普通人用自己的方式报复世界。看样子小姐姐是很喜欢这样的角色，至少她认为是世界的错，而不是希兹克里夫自己的错。
 
 从我个人的角度来说，我少见的对这个角色爱恨交加，我知道他本性不坏，但是因为对凯瑟琳的爱情而导致他用自己狭隘的方式报复世界，由此而伤害周围的人。他活在世界内部，所以他无法真的报复成功，最后就只可能演变成报复自己。
-
-![image.png](https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xpafohjj30rs12ye81.jpg)
 
 自己报复自己的这种事情，在当代世界也很常见，只有真正能原谅自己的人才能放下这些。
 

@@ -7,7 +7,7 @@ lastmod: 2019-08-16T00:14:26+08:00
 # authorlink: https://author.site
 referlink: 'https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=35018201'
 callout: '从前在小黑盒随便写的评论。'
-cover: 'https://tva1.sinaimg.cn/mw690/006R15FXgy1h57xriggk3j30sg0lbqd3.jpg'
+cover: 'https://m.media-amazon.com/images/M/MV5BMGQ1ZGZmNTAtM2MyYi00NmZhLTkwYmYtNTNlZDRhMzU2ZTgwXkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg'
 categories:
   - 感想
 tags:
