@@ -6,8 +6,7 @@ lastmod: 2022-08-16T00:48:14+08:00
 # avatar: /img/author.jpg
 # authorlink: https://author.site
 cover: 'https://i.imgs.ovh/2023/10/07/LxZID.jpeg'
-images:
-  - https://i.imgs.ovh/2023/10/07/LxZID.jpeg
+
 referlink: 'https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?link_id=49557111'
 callout: '《文学少女》系列书单'
 categories:
