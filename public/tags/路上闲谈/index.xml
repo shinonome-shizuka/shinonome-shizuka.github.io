@@ -2,30 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>路上闲谈 on 闲人后院</title>
-    <link>https://shinonome-shizuka.github.io/tags/%E8%B7%AF%E4%B8%8A%E9%97%B2%E8%B0%88/</link>
+    <link>https://writter.theworldr4x.zone/tags/%E8%B7%AF%E4%B8%8A%E9%97%B2%E8%B0%88/</link>
     <description>Recent content in 路上闲谈 on 闲人后院</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <copyright>不可商用，转载署名，标注原地址即可。&lt;/br&gt;@Copyright 2023 Shinonome-Studio &amp; Shinonome Shizuka</copyright>
-    <lastBuildDate>Sat, 03 Jul 2021 13:42:28 +0800</lastBuildDate><atom:link href="https://shinonome-shizuka.github.io/tags/%E8%B7%AF%E4%B8%8A%E9%97%B2%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>不可商用，转载署名，标注原地址即可。&lt;/br&gt;@Copyright 2021-2024 Shinonome Shizuka</copyright>
+    <lastBuildDate>Sat, 06 Aug 2022 20:43:04 +0800</lastBuildDate>
+    <atom:link href="https://writter.theworldr4x.zone/tags/%E8%B7%AF%E4%B8%8A%E9%97%B2%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>千江有水千江月，万里无云万里天</title>
-      <link>https://shinonome-shizuka.github.io/post/poem/no_titled/</link>
+      <link>https://writter.theworldr4x.zone/post/poem/no_titled/</link>
       <pubDate>Sat, 03 Jul 2021 13:42:28 +0800</pubDate>
-      
-      <guid>https://shinonome-shizuka.github.io/post/poem/no_titled/</guid>
+      <guid>https://writter.theworldr4x.zone/post/poem/no_titled/</guid>
       <description>&lt;p&gt;现在是随时都剧变着的时代。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>河畔随想</title>
-      <link>https://shinonome-shizuka.github.io/post/prose/imagination_beyond_rivers/</link>
+      <link>https://writter.theworldr4x.zone/post/prose/imagination_beyond_rivers/</link>
       <pubDate>Sun, 27 Jun 2021 20:43:04 +0800</pubDate>
-      
-      <guid>https://shinonome-shizuka.github.io/post/prose/imagination_beyond_rivers/</guid>
-      <description>&lt;p&gt;傍晚已过，正是江南悠然时。&lt;/p&gt;
-&lt;p&gt;秦淮河畔小路斜纽着延伸，直到远处朦胧不见。&lt;/p&gt;</description>
+      <guid>https://writter.theworldr4x.zone/post/prose/imagination_beyond_rivers/</guid>
+      <description>&lt;p&gt;傍晚已过，正是江南悠然时。&lt;/p&gt;&#xA;&lt;p&gt;秦淮河畔小路斜纽着延伸，直到远处朦胧不见。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,20 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>故事 on 闲人后院</title>
-    <link>https://shinonome-shizuka.github.io/tags/%E6%95%85%E4%BA%8B/</link>
+    <link>https://writter.theworldr4x.zone/tags/%E6%95%85%E4%BA%8B/</link>
     <description>Recent content in 故事 on 闲人后院</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <copyright>不可商用，转载署名，标注原地址即可。&lt;/br&gt;@Copyright 2023 Shinonome-Studio &amp; Shinonome Shizuka</copyright>
-    <lastBuildDate>Thu, 06 Aug 2020 20:58:45 +0800</lastBuildDate><atom:link href="https://shinonome-shizuka.github.io/tags/%E6%95%85%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>不可商用，转载署名，标注原地址即可。&lt;/br&gt;@Copyright 2021-2024 Shinonome Shizuka</copyright>
+    <lastBuildDate>Sat, 06 Aug 2022 20:58:45 +0800</lastBuildDate>
+    <atom:link href="https://writter.theworldr4x.zone/tags/%E6%95%85%E4%BA%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>无题</title>
-      <link>https://shinonome-shizuka.github.io/post/novel/no_titled/</link>
+      <link>https://writter.theworldr4x.zone/post/novel/no_titled/</link>
       <pubDate>Thu, 06 Aug 2020 20:58:45 +0800</pubDate>
-      
-      <guid>https://shinonome-shizuka.github.io/post/novel/no_titled/</guid>
+      <guid>https://writter.theworldr4x.zone/post/novel/no_titled/</guid>
       <description>&lt;p&gt;边关的战事已经持续了数月，带着捷报的白鸽终于飞来。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

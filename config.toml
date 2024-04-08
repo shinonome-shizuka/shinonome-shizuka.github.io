@@ -1,9 +1,9 @@
-baseURL = 'https://shinonome-shizuka.github.io'
+baseURL = 'https://writter.theworldr4x.zone'
 copyright = '不可商用，转载署名，标注原地址即可。</br>@Copyright 2021-2024 Shinonome Shizuka'
-# googleAnalytics = '326384852'
+googleAnalytics = '326384852'
 defaultContentLanguage = 'zh'
 languageCode = 'zh-Hans'
-theme = 'dream'
+theme = 'lightbi-hugo'
 title = '闲人后院'
 # disqusShortname = 'shinonome-shizuka-github-io'
 hasCJKLanguage = true
