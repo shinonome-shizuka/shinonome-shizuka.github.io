@@ -1,4 +1,4 @@
-baseURL = 'https://writter.theworldr4x.zone'
+baseURL = 'https://shinonome-shizuka.github.io'
 copyright = '不可商用，转载署名，标注原地址即可。</br>@Copyright 2021-2024 Shinonome Shizuka'
 googleAnalytics = '326384852'
 defaultContentLanguage = 'zh'
@@ -17,7 +17,7 @@ calloutInPost = true
 description = '专注游戏、文学与思考，酒盏备齐请君上座。'
 headerTitle = '闲人后院常相聚'
 i18n = 'zh'
-images = '/me/background@zetsubo.jpg'
+# images =  "/me/background@zetsubo.jpg"
 maxTags = 5
 motto = '横剑夜听雨浸溪，无上清凉花满席。</br><span style="font-size:12px;color: gray;">微信公众号 @shizuka_backyard</span>'
 utterancesRepo = "shinonome-shizuka/shinonome-shizuka.github.io"
