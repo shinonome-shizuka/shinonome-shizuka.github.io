@@ -1,3 +1,7 @@
+p:has(+ img) {
+    text-align: center;
+}
+
 #TableOfContents ul {
     list-style-type: square
 }
