@@ -2,39 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>成长 on 闲人后院</title>
-    <link>http://localhost:1313/tags/%E6%88%90%E9%95%BF/</link>
+    <link>https://shinonome-shizuka.github.io/tags/%E6%88%90%E9%95%BF/</link>
     <description>Recent content in 成长 on 闲人后院</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>zh-Hans</language>
     <copyright>不可商用，转载署名，标注原地址即可。&lt;/br&gt;@Copyright 2021-2024 Shinonome Shizuka</copyright>
-    <lastBuildDate>Mon, 08 Apr 2024 21:07:10 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%88%90%E9%95%BF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 May 2024 21:35:15 +0800</lastBuildDate>
+    <atom:link href="https://shinonome-shizuka.github.io/tags/%E6%88%90%E9%95%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>天道与公路自行车智能化艺术：十米和百公里</title>
-      <link>http://localhost:1313/post/prose/roadrace/</link>
+      <link>https://shinonome-shizuka.github.io/post/prose/roadrace/</link>
       <pubDate>Mon, 08 Apr 2024 21:07:10 +0800</pubDate>
-      <guid>http://localhost:1313/post/prose/roadrace/</guid>
+      <guid>https://shinonome-shizuka.github.io/post/prose/roadrace/</guid>
       <description>&lt;p&gt;行走文学是极其小众的类型，根据身边统计学结果显示，99%的人都没有听说过罗伯特·麦克法伦的《古道》，但他们一定有可能知道《禅与摩托车维修艺术》。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>爱、错过与遗憾</title>
+      <link>https://shinonome-shizuka.github.io/post/prose/shaman/</link>
+      <pubDate>Thu, 04 Apr 2024 21:35:15 +0800</pubDate>
+      <guid>https://shinonome-shizuka.github.io/post/prose/shaman/</guid>
+      <description>&lt;p&gt;“没有小姑娘拍照好没意思。”&lt;/p&gt;&#xA;&lt;p&gt;归蝶随意检视相机里的照片，看不见的倦意渐渐捆住他，逼着他打了个哈欠。我们坐在席子营小游园的一角，打发着清明节平凡假第一日的最后时刻。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>你好，神风无影</title>
-      <link>http://localhost:1313/post/memory/from_future/</link>
+      <link>https://shinonome-shizuka.github.io/post/memory/from_future/</link>
       <pubDate>Thu, 08 Jun 2023 18:34:39 +0800</pubDate>
-      <guid>http://localhost:1313/post/memory/from_future/</guid>
+      <guid>https://shinonome-shizuka.github.io/post/memory/from_future/</guid>
       <description>&lt;p&gt;留言来自未来，希望能给你无聊的生活带来趣味。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于我的故事 之三</title>
-      <link>http://localhost:1313/post/memory/04/</link>
+      <link>https://shinonome-shizuka.github.io/post/memory/04/</link>
       <pubDate>Sat, 20 Mar 2021 14:08:05 +0800</pubDate>
-      <guid>http://localhost:1313/post/memory/04/</guid>
+      <guid>https://shinonome-shizuka.github.io/post/memory/04/</guid>
       <description>&lt;p&gt;写下这些文字的时候，我正在逐步从虚构的世界中脱离出来。&lt;/p&gt;&#xA;&lt;p&gt;仔细看过之前的文字，惊觉自己的本质。这并不是什么舒服的事情，因为这更像是现在的我审视过去的我，而这两个我之间，似乎并没有什么太大的差别。&lt;/p&gt;&#xA;&lt;p&gt;虽然下午要面试，但是我还是决定去倒一杯白兰地。&lt;/p&gt;</description>
     </item>
     <item>
       <title>来自多年以后的自己</title>
-      <link>http://localhost:1313/post/memory/05/</link>
+      <link>https://shinonome-shizuka.github.io/post/memory/05/</link>
       <pubDate>Fri, 12 Mar 2021 14:12:31 +0800</pubDate>
-      <guid>http://localhost:1313/post/memory/05/</guid>
+      <guid>https://shinonome-shizuka.github.io/post/memory/05/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;人类的社会建构于无情的自私性基础上，刻在每个人的基因里。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;距离上一次给自己好好写东西，已经过去了可能有半年以上，我几乎都要忘记单纯只为自己写作时的充实感。那种文字在指尖流转的感觉，将那些纷乱的思绪拧紧成股，之后落在纸笔/键盘上，最后传达给世界。&lt;/p&gt;&#xA;&lt;p&gt;我没有继续更新自己的文字，有一部分原因是觉得自己文化水平不够，欠缺很多理论知识来升华自己。可是当我开始试着补足这些理论的时候，我自己仍然是有点抗拒，总是会投身到逃避现实的浪潮中去。&lt;/p&gt;&#xA;&lt;p&gt;我开始恐惧。&lt;/p&gt;</description>
     </item>
   </channel>
