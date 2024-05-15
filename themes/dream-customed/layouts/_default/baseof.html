@@ -1,76 +1,81 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="baidu-site-verification" content="code-qUph1H7efj" />
-    <meta keywords="東雲閑,东云闲,IIDX,DJMAX,游戏,東雲研究所,散文,诗歌,闲人,闲学家,闲学,闲情逸致,闲情雅趣,酒,shinonome,shizuka,shinonome shizuka">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L03SKC4VET"></script>
-    <script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="baidu-site-verification" content="code-qUph1H7efj" />
+  <meta keywords="東雲閑,东云闲,IIDX,DJMAX,游戏,東雲研究所,散文,诗歌,闲人,闲学家,闲学,闲情逸致,闲情雅趣,酒,shinonome,shizuka,shinonome shizuka">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L03SKC4VET"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-L03SKC4VET');
-    </script> 
-    <title>{{ block "title" . }} {{- T "home" -}} {{ end }} | {{ .Site.Title }}</title>
+  </script>
+  <title>{{ block "title" . }} {{- T "home" -}} {{ end }} | {{ .Site.Title }}</title>
 
-    {{ partial "head.html" . }}
+  {{ partial "head.html" . }}
 
-    <link rel="stylesheet" href="/css/addon.min.css"/>
-    {{ block "css" . }} {{ end }}
+  <link rel="stylesheet" href="/css/addon.min.css" />
+  {{ block "css" . }} {{ end }}
 
-    {{ range .Site.Params.Advanced.customCSS }}
-    <link rel="stylesheet" href="{{ . | relURL }}" />
-    {{ end }}
-  </head>
+  {{ range .Site.Params.Advanced.customCSS }}
+  <link rel="stylesheet" href="{{ . | relURL }}" />
+  {{ end }}
+</head>
 
-  <body class="default">
-    {{ partial "nav.html" . }}
-    <div class="flip-container">
-      <div class="flipper">
-        <section class="front">
-          <div class="dream-max-width">
-            {{ block "main" . }} {{ end }}
+<body class="default">
+  {{ partial "nav.html" . }}
+  <div class="flip-container">
+    <div class="flipper">
+      <section class="front">
+        <div class="dream-max-width">
+          {{ block "main" . }} {{ end }}
 
-            <footer class="ui basic center aligned segment" style="background-color: transparent;">
-              {{ if .Site.Params.siteStartYear }}
-              <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ .Site.Title }}</p>
-              {{ else }}
-              <p>© {{ now.Year }} {{ .Site.Title }}</p>
-              {{ end }}
+          <footer class="ui basic center aligned segment" style="background-color: transparent;">
+            {{ if .Site.Params.siteStartYear }}
+            <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }}
+              - {{ now.Year }}{{ end }} {{ .Site.Title }}</p>
+            {{ else }}
+            <p>© {{ now.Year }} {{ .Site.Title }}</p>
+            {{ end }}
 
-              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/shinonome-shizuka/shinonome-shizuka.github.io" target="_blank">Shizuka Dream</a>.</p>
+            <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a
+                href="https://github.com/shinonome-shizuka/shinonome-shizuka.github.io" target="_blank">Shizuka
+                Dream</a>.</p>
 
-              {{ if .Site.Params.footerBottomText }}
-              <p>{{ .Site.Params.footerBottomText | safeHTML }}</p>
-              {{ end }}
-            </footer>
-          </div>
-        </section>
-        <section class="back">
-          <div class="dream-max-width">
-            {{ partial "back.html" . }}
-          </div>
-        </section>
-      </div>
+            {{ if .Site.Params.footerBottomText }}
+            <p>{{ .Site.Params.footerBottomText | safeHTML }}</p>
+            {{ end }}
+          </footer>
+        </div>
+      </section>
+      <section class="back">
+        <div class="dream-max-width">
+          {{ partial "back.html" . }}
+        </div>
+      </section>
     </div>
+  </div>
 
-    {{ partial "footer.html" . }}
-    {{ block "js" . }} {{ end }}
+  {{ partial "footer.html" . }}
+  {{ block "js" . }} {{ end }}
 
-    {{ if .Site.Params.enableSearch }}
-    {{ partial "search.html" . }}
-    {{ end }}
+  {{ if .Site.Params.enableSearch }}
+  {{ partial "search.html" . }}
+  {{ end }}
 
-    {{ range .Site.Params.Advanced.customJS }}
-    <script src="{{ . | relURL }}"></script>
-    {{ end }}
+  {{ range .Site.Params.Advanced.customJS }}
+  <script src="{{ . | relURL }}"></script>
+  {{ end }}
 
-    {{ if .Site.GoogleAnalytics }}
-    {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
-  </body>
+  {{ if .Site.GoogleAnalytics }}
+  {{ template "_internal/google_analytics.html" . }}
+  {{ end }}
+</body>
+
 </html>
