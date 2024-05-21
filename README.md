@@ -45,6 +45,8 @@ Control is Power.
   - `id`：strava账号id，从小组件src里复制即可
   - `token`：授权token，从小组件src里复制即可
   - `type`：`activity-summary`或者`latest-rides`
+- [x] static-shortcodes
+  - 用来调用非md格式的md页面，主要为Fountain语法写的剧本
 
 ## Articles To-do
 
