@@ -8,7 +8,7 @@ HUGO BLOG on github pages.
 >
 > 从开始写到不想写，再从不想写到开始写。
 >
-> 放弃做个普通人，挥洒我的想象，忘记自己还握着笔。
+> 放弃做个普通人，挥洒我的想象。
 
 Control is Power.
 
@@ -45,11 +45,14 @@ Control is Power.
   - `id`：strava账号id，从小组件src里复制即可
   - `token`：授权token，从小组件src里复制即可
   - `type`：`activity-summary`或者`latest-rides`
+- [x] static-shortcodes
+  - 用来调用非md格式的md页面，主要为Fountain语法写的剧本
 
 ## Articles To-do
 
 - [x] 处理草稿
 - [x] 搬运其他地方的稿子
+- [ ] 《街霸6》教学还有一些图要加
 
 ## Time to Rewrite
 
