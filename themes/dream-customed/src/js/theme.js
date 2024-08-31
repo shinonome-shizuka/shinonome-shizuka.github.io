@@ -123,7 +123,7 @@ const darkCallout = () => {
   callout.length && callout.toggleClass(dark);
 }
 
-const darkAvatar = () => {
+function darkAvatar() {
   const avatar = $('.dream-header .ui.small.image img');
   if (avatar.length) {
     const darkSrc = avatar.data('dark-src');
@@ -132,7 +132,7 @@ const darkAvatar = () => {
   } 
 }
 
-const lightAvatar = () => {
+function lightAvatar() {
   const avatar = $('.dream-header .ui.small.image img');
   if (avatar.length) {
     const lightSrc = avatar.data('light-src');

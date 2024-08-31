@@ -1,84 +1,208 @@
-"use strict";
-var dark = "inverted",
-    localStore = window.localStorage,
-    isDark = localStore.getItem("hugo-theme-dream-is-dark");
-isDark = isDark || (window.defaultDark ? "y" : isDark);
-var dark404 = function () {
-    if ((window.backgroundDark || window.backgroundImageDark) && $(".dream-404-container").length) {
-        $(".dream-404-container h1").toggleClass(dark);
-        var e = $(".dream-404-container button");
-        e.toggleClass(dark), e.toggleClass("secondary")
+const dark = 'inverted'
+const localStore = window.localStorage
+let isDark = localStore.getItem('hugo-theme-dream-is-dark')
+isDark = isDark ? isDark : window.defaultDark ? 'y' : isDark
+
+const dark404 = () => {
+  if (window.backgroundDark || window.backgroundImageDark) {
+    const dream404 = $('.dream-404-container')
+
+    if (dream404.length) {
+      $('.dream-404-container h1').toggleClass(dark)
+
+      const button = $('.dream-404-container button')
+      button.toggleClass(dark)
+      button.toggleClass('secondary')
     }
-},
-    darkBackground = function () {
-        (window.backgroundDark || window.backgroundImageDark) && $("body").toggleClass("default").toggleClass("dark")
-    },
-    darkNavMenu = function () {
-        (window.backgroundDark || window.backgroundImageDark) && $("nav.dream-menu").toggleClass(dark)
-    },
-    darkHeaderElements = function () {
-        if ($(".dream-header").length) {
-            var e = $(".dream-header .ui.header"),
-                a = $(".dream-header .ui.list");
-            e.toggleClass(dark), a.toggleClass(dark)
-        }
-    },
-    darkCards = function () {
-        var e = $(".dream-card");
-        e.length && e.toggleClass(dark)
-    },
-    darkSingle = function () {
-        var e = $(".dream-single .ui.segment");
-        e.length && (e.toggleClass(dark), $(".dream-single h1.ui.header").toggleClass(dark), setThemeForUtterances(), "function" == typeof setHighlightTheme && setHighlightTheme(), $(".toc").toggleClass(dark), $(".actions").toggleClass(dark))
-    },
-    darkTables = function () {
-        var e = $(".dream-single table");
-        e.length && e.map(function () {
-            this.style.color ? this.style.color = "" : this.style.color = "black"
-        })
-    },
-    darkPostsSection = function () {
-        var e = $(".ui.segment.dream-posts-section");
-        e.length && e.toggleClass(dark)
-    },
-    darkTagsSection = function () {
-        var e = $(".ui.segment.dream-tags-section");
-        e.length && e.toggleClass(dark)
-    },
-    darkCategoriesSection = function () {
-        var e = $(".ui.segment.dream-categories-section");
-        e.length && e.toggleClass(dark)
-    },
-    darkBack = function () {
-        var e = $(".dream-back .ui.segment");
-        e.length && e.toggleClass(dark)
-    },
-    darkFooter = function () {
-        $("footer.ui.segment").toggleClass(dark)
-    },
-    darkCallout = function () {
-        var e = $(".callout");
-        var a = $(".callout-summray");
-        e.length && e.toggleClass(dark)
-        a.length && a.toggleClass(dark)
-    };
+  }
+}
+
+const darkBackground = () => {
+  if (window.backgroundDark || window.backgroundImageDark) {
+    $('body').toggleClass('default').toggleClass('dark')
+  }
+}
+
+const darkNavMenu = () => {
+  if (window.backgroundDark || window.backgroundImageDark) {
+    $('nav.dream-menu').toggleClass(dark)
+  }
+}
+
+const darkHeaderElements = () => {
+  const header = $('.dream-header')
+
+  if (header.length) {
+    const title = $('.dream-header .ui.header')
+    const iconList = $('.dream-header .ui.list')
+
+    title.toggleClass(dark)
+    iconList.toggleClass(dark)
+  }
+}
+
+const darkCards = () => {
+  const cards = $('.dream-card')
+
+  if (cards.length) {
+    cards.toggleClass(dark)
+  }
+}
+
+const darkSingle = () => {
+  const segments = $('.dream-single .ui.segment')
+
+  if (segments.length) {
+    segments.toggleClass(dark)
+
+    const title = $('.dream-single h1.ui.header')
+    title.toggleClass(dark)
+
+    setThemeForUtterances()
+    if (typeof setHighlightTheme === 'function') {
+      setHighlightTheme()
+    }
+
+    $('.toc').toggleClass(dark)
+    $('.actions').toggleClass(dark)
+  }
+}
+
+const darkTables = () => {
+  const tables = $('.dream-single table')
+
+  if (tables.length) {
+    tables.map(function () {
+      if (this.style.color) {
+        this.style.color = ''
+      } else {
+        this.style.color = 'black'
+      }
+    })
+  }
+}
+
+const darkPostsSection = () => {
+  const segment = $('.ui.segment.dream-posts-section')
+
+  if (segment.length) {
+    segment.toggleClass(dark)
+  }
+}
+
+const darkTagsSection = () => {
+  const segment = $('.ui.segment.dream-tags-section')
+
+  if (segment.length) {
+    segment.toggleClass(dark)
+  }
+}
+
+const darkCategoriesSection = () => {
+  const segment = $('.ui.segment.dream-categories-section')
+
+  if (segment.length) {
+    segment.toggleClass(dark)
+  }
+}
+
+const darkBack = () => {
+  const segments = $('.dream-back .ui.segment')
+
+  if (segments.length) {
+    segments.toggleClass(dark)
+  }
+}
+
+const darkFooter = () => {
+  $('footer.ui.segment').toggleClass(dark)
+}
+
+const darkCallout = () => {
+  const callout = $('.callout');
+  callout.length && callout.toggleClass(dark);
+}
+
+function darkAvatar() {
+  const avatar = $('.dream-header .ui.small.image img');
+  if (avatar.length) {
+    const darkSrc = avatar.data('dark-src');
+    
+    avatar.attr('src', darkSrc);
+  } 
+}
+
+function lightAvatar() {
+  const avatar = $('.dream-header .ui.small.image img');
+  if (avatar.length) {
+    const lightSrc = avatar.data('light-src');
+
+    avatar.attr('src', lightSrc);
+  } 
+}
 
 function toggleDark() {
-    dark404(), darkBackground(), darkNavMenu(), darkHeaderElements(), darkCards(), darkSingle(), darkTables(), darkPostsSection(), darkTagsSection(), darkCategoriesSection(), darkBack(), darkFooter(), darkCallout()
+  dark404()
+  darkBackground()
+  darkNavMenu()
+  darkHeaderElements()
+  darkCards()
+  darkSingle()
+  darkTables()
+  darkPostsSection()
+  darkTagsSection()
+  darkCategoriesSection()
+  darkBack()
+  darkFooter()
+  darkCallout()
+  darkAvatar()
 }
-var setThemeForUtterances = function () {
-    var e = document.querySelector("iframe.utterances-frame");
-    e && e.contentWindow.postMessage({
-        type: "set-theme",
-        theme: "y" === isDark ? "github-dark" : "github-light"
-    }, "https://utteranc.es")
-};
-window.addEventListener("message", function (e) {
-    "https://utteranc.es" === e.origin && setThemeForUtterances()
-});
-var iconSwitchs = $(".theme-switch");
+
+const setThemeForUtterances = () => {
+  const utterances = document.querySelector('iframe.utterances-frame')
+
+  if (utterances) {
+    utterances.contentWindow.postMessage(
+      {
+        type: 'set-theme',
+        theme: isDark === 'y' ? 'github-dark' : 'github-light',
+      },
+      'https://utteranc.es'
+    )
+  }
+}
+
+window.addEventListener('message', (e) => {
+  if (e.origin !== 'https://utteranc.es') {
+    return
+  }
+
+  setThemeForUtterances()
+})
+
+const iconSwitchs = $('.theme-switch')
+
+// Apply theme when first entering
+if (isDark === 'y') {
+  iconSwitchs.addClass('moon')
+  toggleDark();
+} else {
+  lightAvatar();
+  iconSwitchs.addClass('sun')
+}
 
 function themeSwitch() {
-    isDark = "y" === isDark ? (iconSwitchs.removeClass("moon"), iconSwitchs.addClass("sun"), localStore.setItem("hugo-theme-dream-is-dark", "n"), "n") : (iconSwitchs.removeClass("sun"), iconSwitchs.addClass("moon"), localStore.setItem("hugo-theme-dream-is-dark", "y"), "y"), toggleDark()
+  if (isDark === 'y') {
+    iconSwitchs.removeClass('moon')
+    iconSwitchs.addClass('sun')
+    localStore.setItem('hugo-theme-dream-is-dark', 'n')
+    isDark = 'n'
+  } else {
+    iconSwitchs.removeClass('sun')
+    iconSwitchs.addClass('moon')
+    localStore.setItem('hugo-theme-dream-is-dark', 'y')
+    isDark = 'y'
+  }
+
+  toggleDark()
 }
-"y" === isDark ? (iconSwitchs.addClass("moon"), toggleDark()) : iconSwitchs.addClass("sun");

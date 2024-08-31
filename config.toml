@@ -29,7 +29,7 @@ rss = true
 
 # dark mode
 backgroundDark = "#14191E"
-backgroundImageDark = "https://i.imgs.ovh/2023/10/07/LxEe5.png"
+# backgroundImageDark = "https://i.imgs.ovh/2023/10/07/LxEe5.png" #这个网站的图片已经炸完了
 dark404 = true
 darkLinkColor = "#005CFF"
 darkNav = true
