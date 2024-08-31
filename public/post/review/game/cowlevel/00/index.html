@@ -29,7 +29,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.125.2">
+<meta name="generator" content="Hugo 0.133.1">
 
 <link rel="canonical" href="https://shinonome-shizuka.github.io/post/review/game/cowlevel/00/" />
 
@@ -40,24 +40,23 @@
   <meta property="og:description" content=" 删掉了所有的废话，想看原文可以去奶牛关。
 因为IIDX破解相关内容太过亚逼和零散，国内音游圈因为人少又太过封闭，网上很难找到一篇足够完整的说明。本文旨在整理自己的折腾过程中积攒的经验，希望可以帮助其他想要玩IIDX的玩家。
 理坛反对伸手党，那不好意思，小弟就是要跟他们反着来。
-只要我看到评论就会回复，欢迎开放交流。
-">
-  <meta property="og:locale" content="zh-Hans">
+只要我看到评论就会回复，欢迎开放交流。">
+  <meta property="og:locale" content="zh_Hans">
   <meta property="og:type" content="article">
-  <meta property="article:section" content="post">
+    <meta property="article:section" content="post">
     <meta property="article:published_time" content="2018-12-26T11:54:29+08:00">
-    <meta property="article:modified_time" content="2023-06-25T12:45:43+08:00">
+    <meta property="article:modified_time" content="2024-05-16T12:45:43+08:00">
     <meta property="article:tag" content="奶牛关">
     <meta property="article:tag" content="音乐游戏/MUG">
     <meta property="og:image" content="https://media.vgm.io/products/12/10121/10121-1616309197.png">
 
 
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://media.vgm.io/products/12/10121/10121-1616309197.png"><meta name="twitter:title" content="IIDX 好弟弟折腾笔记">
-<meta name="twitter:description" content="
-删掉了所有的废话，想看原文可以去奶牛关。
 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://media.vgm.io/products/12/10121/10121-1616309197.png">
+  <meta name="twitter:title" content="IIDX 好弟弟折腾笔记">
+  <meta name="twitter:description" content=" 删掉了所有的废话，想看原文可以去奶牛关。
 因为IIDX破解相关内容太过亚逼和零散，国内音游圈因为人少又太过封闭，网上很难找到一篇足够完整的说明。本文旨在整理自己的折腾过程中积攒的经验，希望可以帮助其他想要玩IIDX的玩家。
 理坛反对伸手党，那不好意思，小弟就是要跟他们反着来。
 只要我看到评论就会回复，欢迎开放交流。">
@@ -82,7 +81,7 @@
 
   
   .inverted a:not(.ui.button) {
-     color: #005CFF !important;
+    color: #005CFF !important;
   }
   
 
@@ -108,7 +107,6 @@
   }
   
 </style>
-
 
   <link rel="stylesheet" href="/css/addon.min.css" />
   
@@ -173,7 +171,6 @@
         <li><a href="#刷卡的方法">刷卡的方法</a></li>
         <li><a href="#升级包的使用">升级包的使用</a></li>
         <li><a href="#xml文档的部分意义">XML文档的部分意义</a></li>
-        <li><a href="#奇怪的问题">奇怪的问题</a></li>
       </ul>
     </li>
   </ul>
@@ -192,7 +189,9 @@
             <div class="left timeSummary">
               @
               
-                東雲閑
+                
+                  DJ.WH*M
+                
               
 
               | 发布于 
@@ -202,7 +201,7 @@
               
               | 更新于
                 
-                  <span data-format="luxon">2023-06-25T12:45:43&#43;08:00</span>
+                  <span data-format="luxon">2024-05-16T12:45:43&#43;08:00</span>
                 
               
             </div>
@@ -221,7 +220,7 @@
 
             
           </div>
-          <div class="left wordcount">共计 3879 字 ，约 8 分钟可以读完
+          <div class="left wordcount">共计 3992 字 ，约 8 分钟可以读完
             
             <span style="font-size: 12px;font-weight: normal; margin-left: 12px;"><a href="https://cowlevel.net/article/2017694">原文链接</a></span>
             
@@ -245,15 +244,20 @@
 <p>只要我看到评论就会回复，欢迎开放交流。</p>
 <p>IIDX相关科普可以参考<a href="https://wiki.bemani.cc/index.php?title=Beatmania_IIDX%E6%A6%82%E5%86%B5">这里</a>；谱面黑话暂时只能参考我之前写的<a href="https://shinonome-shizuka.github.io/post/review/game/cowlevel/01/">清凉翻译#3</a>。</p>
 <p>由于我对国内音游圈了解的不多，也不太想深入这个圈子，所以详细的历史相关和人物就不提及，仅仅只锐评游戏。</p>
-<p>目前最新版本为IIDX 30 Resident，中文音游圈通常可以找到的版本为<strong>最新版本N-1</strong>。</p>
+<p>目前最新版本为IIDX 32 Freelancia，中文音游圈通常可以找到的版本为<strong>最新版本N-1</strong>。</p>
 <p>从DMR引用两句话献给所有喜欢硬核音游的玩家：</p>
 <blockquote>
 <p>You need more practice !
 We respect you !</p>
 </blockquote>
 <h2 id="hdd如何安装启动">HDD如何安装启动</h2>
-<p>首先，你需要自己寻找HDD的资源，理科论坛（bemani.cc）更容易获得你想要的东西。现在理科论坛已经开放注册（需要绑定手机号）并且限制国内IP访问。</p>
-<p>当然，你也可以直接去墙外寻找资源，比如<a href="https://www.emuline.org/">emuline论坛</a>，语言默认法文，可以在右上角调整为英文。甚至连大家更熟悉的<a href="https://nyaa.si/">nyaa种子站</a>也能直接搜出相关资源，除了IIDX29。</p>
+<p>首先，你需要自己寻找HDD的资源，<a href="https://bemani.cc">理科论坛</a>更容易获得你想要的东西。现在理科论坛已经开放注册（需要绑定手机号）并且限制国内IP访问。</p>
+<p>当然，你也可以直接去墙外寻找资源，举几个例子：</p>
+<ul>
+<li><del><a href="https://www.emuline.org/">emuline论坛</a>：目前已经爆炸。</del></li>
+<li><a href="http://teknoparrot.link.free.fr/">TP论坛</a>：语言默认法文，自备deepl和gpt。</li>
+<li><a href="https://nyaa.si/">nyaa种子站</a>：可以直接搜出相关资源。</li>
+</ul>
 <p>IIDX的默认语言环境本身就不包括中文，语言方面的小困难就使用翻译软件自己琢磨吧。</p>
 <p>如果你从外国资源网站下载好游戏，你会发现整个压缩包足够“纯净”。IIDX是街机软件，从设计之初就从未考虑过在正常PC上运行。</p>
 <p>据我个人经验，IIDX破解最初使用的开源软件是<a href="https://github.com/djhackersdev/bemanitools">bemanitools</a>，目前仍在更新。</p>
@@ -262,15 +266,16 @@ We respect you !</p>
 <p>如果使用<code>spicetools</code>，软件会先读取<code>ea3-config.xml</code>的设置，并在此基础上引用软件GUI中的设置的参数启动游戏。软件GUI中的参数修改不会覆盖默认<code>ea3-config.xml</code>中原有的内容，而且还提供了各版本通用的patch功能，方便玩家调整自己的游戏功能。</p>
 <p>作为一个联网的街机游戏，IIDX如果没有服务端端的配合则无法单独运行，玩家的游戏数据也是保存在服务器端。</p>
 <p>所以，你还需要一个可以链接的“Bemani服务器”。正版IIDX通常会连接到Konami的机房，而我们破解佬当然不可能白嫖正版服务器资源，所以我们得自己架设服务器端。尽管说是服务器，实际上就是在你的PC上运行一个程序，并且将游戏联网的地址指向你的本机。</p>
-<p>离线服务器有很多，但我只推荐Asphyxia-core。这是最新的模组化地服务器，由内核与插件共同组成。插件支持大量Bemani音游，而且没有功能阉割，甚至可以通过各类虚拟局域网工具让大家一起玩。<a href="https://asphyxia-core.github.io/">内核下载地址</a>，<a href="https://github.com/rumatsuki/iidx-plugin/tree/master">IIDX插件下载地址</a>。IIDX插件需要简单的修改才能支持IIDX30，如果你有Typescript代码知识，很快就能搞定。</p>
+<p>离线服务器有很多，但我只推荐Asphyxia-core。这是最新的模组化地服务器，由内核与插件共同组成。插件支持大量Bemani音游，而且没有功能阉割，甚至可以通过各类虚拟局域网工具让大家一起玩。<a href="https://asphyxia-core.github.io/">内核下载地址</a>，<a href="https://github.com/rumatsuki/iidx-plugin/tree/master">IIDX插件下载地址</a>。</p>
+<p>IIDX插件需要简单的修改才能支持IIDX30，如果你有Typescript代码知识，很快就能搞定。如果懒得动手，这里也有<a href="https://github.com/duel0213/asphyxia-plugins">修改好的版本</a>可以下载使用，感谢评论区大兄弟指路。</p>
 <p><img src="https://asphyxia-core.github.io/img/core-logo.png" alt="img"></p>
-<p>开发者为了规避只提供了Linux和Windows版本可执行文件，另外也提供了额外的ARM架构版本，理论上可以在绝大多数操作系统中运行。为了规避Konami法务部铁拳而将插件部分交给开源社群自己编写，支持最新的IIDX 30。</p>
-<p>使用自己架设的服务器虽然可以保存数据，但与此同时整个服务器只有你一个玩家，所以也就没法用排行榜之类的功能。</p>
+<p>开发者为了规避Konami的法务铁拳，只提供了Linux和Windows版本可执行文件，另外也提供了额外的ARM架构的源码，理论上可以在绝大多数操作系统中运行。</p>
+<p>使用自己架设的服务器只能满足保存数据这一个需求，但整个服务器里只有你一个玩家，也就排行榜这类社交功能统统没法体验。</p>
 <p>所以为了让游戏体验更丰富，我们也可以直接连接到第三方提供的私服网络，比如传说中的<a href="https://arcana.nu">arcana.nu</a>。</p>
 <p>最后检查你的电脑设置：</p>
 <ul>
-<li>使用3DM游戏运行库安装工具v3.0，解决运行库问题（IIDX需要VC2010）</li>
-<li>禁用多余网卡，包括虚拟网卡，留一张即可</li>
+<li>使用<code>3DM游戏运行库安装工具v3.0</code>，解决运行库问题（IIDX需要VC2010）</li>
+<li>禁用多余网卡，包括<code>虚拟网卡</code>，留一张即可</li>
 <li>禁用蓝牙</li>
 <li>在声音面板将“板载声卡输出”设置为<code>默认设备</code>或者<code>你想输出的声音设备</code>，并选择“允许应用程序独占”
 <ul>
@@ -296,11 +301,15 @@ We respect you !</p>
 <li>如果使用<code>spicetools</code>则设置<code>spice64.exe</code>允许通过防火墙</li>
 </ul>
 </li>
-<li>如果不想联网，运行游戏之前记得启动离线服务器</li>
-<li>联网请参考A网、理网的设置方法
+<li>检查<code>ea3_config.xml</code>中的<code>&lt;Network&gt;</code>网络配置
 <ul>
-<li><code>ea3_config.xml</code>中填写<code>pcb-id</code>及<code>&lt;Network&gt;</code>信息</li>
+<li>联网（使用第三方服务器）：请参考A网、理网的设置方法
+<ul>
+<li>填写<code>pcb-id</code>及对应的<code>&lt;Network&gt;</code>信息</li>
 <li>务必填写私服中自己申请到的<code>pcb-id</code>，否则会被拒绝访问</li>
+</ul>
+</li>
+<li>本地：启动离线服务器，<code>&lt;Network&gt;</code>指向<code>localhost</code>及对应端口</li>
 </ul>
 </li>
 <li>启动游戏
@@ -316,9 +325,9 @@ We respect you !</p>
 <p><strong>理网</strong>：Bemanicn提供的国内街机e-amusement联网服务。</p>
 <p><strong>理台</strong>：指连接到国内e-amusement网络的机台，可以使用老版的e-pass卡，目前和BJMANIA完成了合并，两者互通paseli账号。</p>
 <p><strong>A网</strong>：指邀请制网站<code>arcana.nu</code>，提供国内外非正版街机的联网服务，支持所有bemani系列游戏，一般支持<strong>N-1</strong>版本。</p>
-<p><strong>ea3-config.xml</strong>：前缀意义不明，是IIDX HDD运行环境的主要设置文件，beatmania tools的核心文件，游戏无法运行基本上都是这里出了问题。</p>
+<p><strong>ea3-config.xml</strong>：前缀为<code>e-amusement v3</code>的缩写 <del>（大概）</del>，是IIDX HDD运行环境的主要设置文件，beatmania tools的核心文件，游戏无法运行基本上都是这里出了问题。</p>
 <p><strong>pcbid</strong>：机台基板ID，类似网卡的MAC地址，IIDX联网时需要作为身份标示，唯一。</p>
-<p><strong>离线服务器</strong>：由于IIDX默认会访问服务器检测，不联网游戏则无法运行，所以需要一个伪造的本地服务器来骗过检测。其实就是代理服务器，伪造e-amusement服务器正在维护中的离线效果。</p>
+<p><strong>离线服务器</strong>：由于IIDX默认会访问服务器检测，不联网游戏则无法运行，所以需要一个伪造e-amusement服务器正在维护中的离线效果。</p>
 <p><strong>ICC</strong>：e-pass卡模拟器，全写目前不明。</p>
 <p><strong>PIN</strong>：e-pass卡的四位密码，正常情况可以在可乐妹官网设置。</p>
 <p><strong>ea-emu</strong>：一个离线服务器，只支持到IIDX 18。</p>
@@ -396,9 +405,9 @@ We respect you !</p>
 <p>例如：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plain" data-lang="plain"><span style="display:flex;"><span>ea3-pos: ea3_posev_init: reading opt file failed
 </span></span></code></pre></div><p>此处检查<code>ea3-config.xml</code>中<code>ea3/option/posevnt</code>及其他<code>event</code>设置，全部设置为<code>1</code>之后即可正常启动。有时此错误会因为dev文件夹被占用而出现，删除文件夹重新运行即可。</p>
+<p>如果遇到nvram错误，可以将预编译的文件全部删除，替换为<a href="https://1drv.ms/u/s!AmteDcWaA0g7dbL028G87xfOkcI?e=x4OImq">链接</a>中的文件尝试一下。</p>
+<p>由于iidx研发设计时没有考虑兼容性，所以xml文件可能会出现编码错误导致读失败的问题，可以使用vscode等现代文本编辑器来解决。</p>
 <p>另外spicetools有时会遇到d3d9的相关错误导致音画掉帧错位，此问题通常与Windows系统有关。如果是spicetools可以直接把对应的文件放入<code>content/api/cpp/spiceapi</code>文件夹。</p>
-<h3 id="奇怪的问题">奇怪的问题</h3>
-<p>dev相关错误，可以将nvram中的文件全部删除，替换为<a href="https://1drv.ms/u/s!AmteDcWaA0g7dbL028G87xfOkcI?e=x4OImq">链接</a>中的文件。</p>
       </article>
     </section>
 
@@ -441,7 +450,10 @@ We respect you !</p>
           <header class="ui basic very padded segment dream-header">
   
   <div class="ui small image">
-    <img src="/me/shizuka_new_bbg.png" alt="avatar" />
+    <img src="/me/avatar.png" 
+         alt="avatar" 
+         data-light-src="/me/avatar.png"
+         data-dark-src="/me/shizuka_new_bbg.png" />
   </div>
   
 
@@ -463,6 +475,8 @@ We respect you !</p>
     
     
     
+    
+      
     
       
     
@@ -625,6 +639,12 @@ We respect you !</p>
           
           
           
+            <a class="ui label" href="/tags/%E6%A0%BC%E6%96%97%E6%B8%B8%E6%88%8F/ftg/" title="格斗游戏/FTG">
+              格斗游戏/FTG
+            </a>
+          
+          
+          
             <a class="ui label" href="/tags/%E6%B2%AA%E6%BC%82%E9%9A%8F%E6%83%B3/" title="沪漂随想">
               沪漂随想
             </a>
@@ -753,8 +773,8 @@ We respect you !</p>
   <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
     <article class="ui segment markdown-body">
       <div class="ui medium header">关于我</div>
-      <p>已经失业，重振精神。</p>
-<p>游戏行业情报弱者，期待着读者。</p>
+      <p>回归游戏行业，但仍然没有定下方向。</p>
+<p>或许发行工作很适合我，有需要可以通过邮件联系我。</p>
 <div class="centered">
     <iframe height='183' width=100% frameborder='0' allowtransparency='true' scrolling='no'
         src='https://www.strava.com/athletes/60078800/activity-summary/2e6bb2795998475662c48bb090980bb4ce6c4e85'></iframe>
