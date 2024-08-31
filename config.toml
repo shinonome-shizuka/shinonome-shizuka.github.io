@@ -11,7 +11,8 @@ hasCJKLanguage = true
 [params]
 accessCount = true
 author = '東雲閑'
-avatar = '/me/shizuka_new_bbg.png'
+avatar = '/me/avatar.png'
+darkAvatar = '/me/shizuka_new_bbg.png'
 background = "#E3E3E3"
 calloutInPost = true
 description = '专注游戏、文学与思考，酒盏备齐请君上座。'

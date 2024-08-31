@@ -123,6 +123,24 @@ const darkCallout = () => {
   callout.length && callout.toggleClass(dark);
 }
 
+const darkAvatar = () => {
+  const avatar = $('.dream-header .ui.small.image img');
+  if (avatar.length) {
+    const darkSrc = avatar.data('dark-src');
+    
+    avatar.attr('src', darkSrc);
+  } 
+}
+
+const lightAvatar = () => {
+  const avatar = $('.dream-header .ui.small.image img');
+  if (avatar.length) {
+    const lightSrc = avatar.data('light-src');
+
+    avatar.attr('src', lightSrc);
+  } 
+}
+
 function toggleDark() {
   dark404()
   darkBackground()
@@ -137,6 +155,7 @@ function toggleDark() {
   darkBack()
   darkFooter()
   darkCallout()
+  darkAvatar()
 }
 
 const setThemeForUtterances = () => {
@@ -166,8 +185,9 @@ const iconSwitchs = $('.theme-switch')
 // Apply theme when first entering
 if (isDark === 'y') {
   iconSwitchs.addClass('moon')
-  toggleDark()
+  toggleDark();
 } else {
+  lightAvatar();
   iconSwitchs.addClass('sun')
 }
 

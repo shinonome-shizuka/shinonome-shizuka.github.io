@@ -1,7 +1,10 @@
 <header class="ui basic very padded segment dream-header">
   {{ if isset .Site.Params "avatar" }}
   <div class="ui small image">
-    <img src="{{ .Site.Params.avatar | relURL }}" alt="avatar" />
+    <img src="{{ .Site.Params.avatar | relURL }}" 
+         alt="avatar" 
+         data-light-src="{{ .Site.Params.avatar | relURL }}"
+         data-dark-src="{{ .Site.Params.darkAvatar | relURL }}" />
   </div>
   {{ end }}
 
