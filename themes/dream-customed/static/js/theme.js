@@ -123,19 +123,12 @@ const darkCallout = () => {
   callout.length && callout.toggleClass(dark);
 }
 
-function darkAvatar() {
+const darkAvatar = () => {
   const avatar = $('.dream-header .ui.small.image img');
   if (avatar.length) {
     const darkSrc = avatar.data('dark-src');
-    avatar.attr('src', darkSrc);
-  } 
-}
-
-function lightAvatar() {
-  const avatar = $('.dream-header .ui.small.image img');
-  if (avatar.length) {
     const lightSrc = avatar.data('light-src');
-    avatar.attr('src', lightSrc);
+    avatar.attr('src', isDark === 'y' ? darkSrc : lightSrc);
   } 
 }
 
@@ -185,8 +178,8 @@ if (isDark === 'y') {
   iconSwitchs.addClass('moon')
   toggleDark();
 } else {
-  lightAvatar();
   iconSwitchs.addClass('sun')
+
 }
 
 function themeSwitch() {

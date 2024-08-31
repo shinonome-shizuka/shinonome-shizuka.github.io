@@ -17,6 +17,7 @@ Control is Power.
 - [x] 需要调整白天模式下callout的样式
   - [x] 琢磨明白原有主题的颜色切换原理
     - [x] 启动深色界面时增加`.inverted`
+    - [x] 启动深色界面时`Avatar`也一起更换 
 - [x] 增加两个音乐引用的shortcodes
   - [x] Bandcamp
     - `id`: track 或 album 的 `id`

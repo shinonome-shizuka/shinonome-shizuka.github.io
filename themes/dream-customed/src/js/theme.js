@@ -123,6 +123,15 @@ const darkCallout = () => {
   callout.length && callout.toggleClass(dark);
 }
 
+const darkAvatar = () => {
+  const avatar = $('.dream-header .ui.small.image img');
+  if (avatar.length) {
+    const darkSrc = avatar.data('dark-src');
+    const lightSrc = avatar.data('light-src');
+    avatar.attr('src', isDark === 'y' ? darkSrc : lightSrc);
+  } 
+}
+
 function toggleDark() {
   dark404()
   darkBackground()
@@ -137,6 +146,7 @@ function toggleDark() {
   darkBack()
   darkFooter()
   darkCallout()
+  darkAvatar()
 }
 
 const setThemeForUtterances = () => {
@@ -169,6 +179,7 @@ if (isDark === 'y') {
   toggleDark();
 } else {
   iconSwitchs.addClass('sun')
+
 }
 
 function themeSwitch() {
