@@ -127,7 +127,6 @@ function darkAvatar() {
   const avatar = $('.dream-header .ui.small.image img');
   if (avatar.length) {
     const darkSrc = avatar.data('dark-src');
-    
     avatar.attr('src', darkSrc);
   } 
 }
@@ -136,7 +135,6 @@ function lightAvatar() {
   const avatar = $('.dream-header .ui.small.image img');
   if (avatar.length) {
     const lightSrc = avatar.data('light-src');
-
     avatar.attr('src', lightSrc);
   } 
 }
