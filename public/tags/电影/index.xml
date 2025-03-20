@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电影 on 闲人后院</title>
-    <link>http://localhost:1313/tags/%E7%94%B5%E5%BD%B1/</link>
+    <link>https://shinonome-shizuka.github.io/tags/%E7%94%B5%E5%BD%B1/</link>
     <description>Recent content in 电影 on 闲人后院</description>
     <generator>Hugo</generator>
     <language>zh-Hans</language>
-    <copyright>不可商用，转载署名，标注原地址即可。&lt;/br&gt;@Copyright 2021-2024 Shinonome Shizuka</copyright>
+    <copyright>不可商用，转载署名，标注原地址即可。&lt;/br&gt;@Copyright 2021-2025 Shinonome Shizuka</copyright>
     <lastBuildDate>Fri, 16 Aug 2019 00:14:26 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E7%94%B5%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shinonome-shizuka.github.io/tags/%E7%94%B5%E5%BD%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《小丑》观后感：反社会者的自我认同之路</title>
-      <link>http://localhost:1313/post/review/movie/joker/</link>
+      <link>https://shinonome-shizuka.github.io/post/review/movie/joker/</link>
       <pubDate>Fri, 16 Aug 2019 00:14:26 +0800</pubDate>
-      <guid>http://localhost:1313/post/review/movie/joker/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;「 I used to think that my whole life is a tragedy, but now I think it&amp;rsquo;s a fucking comedy. 」&lt;/p&gt;&#xA;&lt;p&gt;“我从前认为我的整个人生就是悲剧，但是现在我觉得这简直就是他娘的喜剧。”&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <guid>https://shinonome-shizuka.github.io/post/review/movie/joker/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;「 I used to think that my whole life is a tragedy, but now I think it&amp;rsquo;s a fucking comedy. 」&lt;/p&gt;&#xA;&lt;p&gt;“我从前认为我的整个人生就是悲剧，但是现在我觉得这简直就是他娘的喜剧。”&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
   </channel>
 </rss>

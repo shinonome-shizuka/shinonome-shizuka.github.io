@@ -24,6 +24,7 @@ motto = '横剑夜听雨浸溪，无上清凉花满席。</br><span style="font-
 utterancesRepo = "shinonome-shizuka/shinonome-shizuka.github.io"
 # backgroundImage = "/me/background.jpg"
 linkColor = "#005CFF"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 rss = true
 
