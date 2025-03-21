@@ -8,6 +8,7 @@ categories:
   - 评论
 tags:
   - 游戏
+  - 动作游戏/ACT
 draft: false
 ---
 

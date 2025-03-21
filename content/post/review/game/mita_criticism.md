@@ -1,5 +1,5 @@
 ---
-title: '《米塔》评论：Meta游戏？流量密码？'
+title: '《米塔》批评：Meta游戏？流量密码？'
 date: 2025-01-19T00:03:31+08:00
 lastmod: 2025-03-21T00:03:31+08:00
 cover: 'https://img.itch.zone/aW1nLzEyNjM3OTY5LnBuZw==/original/R05Fdp.png'
@@ -8,6 +8,7 @@ categories:
   - 批评
 tags:
   - 游戏
+  - 步行模拟游戏/W-SIM
 draft: false
 ---
 
