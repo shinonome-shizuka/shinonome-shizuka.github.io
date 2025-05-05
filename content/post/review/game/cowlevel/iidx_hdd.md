@@ -6,8 +6,6 @@ author: DJ.WH*M
 # avatar: /img/author.jpg
 referlink: 'https://cowlevel.net/article/2017694'
 cover: 'https://media.vgm.io/products/12/10121/10121-1616309197.png'
-images:
-  - https://media.vgm.io/products/12/10121/10121-1616309197.png
 callout: '这篇文章最近想要再重置一次，受到大佬LR2教学的启发。'
 categories:
   - 教程
@@ -50,7 +48,7 @@ IIDX相关科普可以参考[这里](https://wiki.bemani.cc/index.php?title=Beat
 - [TP论坛](http://teknoparrot.link.free.fr/)：语言默认法文，自备deepl和gpt。
 - [nyaa种子站](https://nyaa.si/)：可以直接搜出相关资源。
 
-IIDX的默认语言环境本身就不包括中文，语言方面的小困难就使用翻译软件自己琢磨吧。
+**前两天谷歌发邮件给我，说这篇文章里面因为挂了盗版资源的相关链接，所以把这篇文章的搜索索引条目干没了。我因此发现了一个[列表](https://lumendatabase.org/notices/51277639)，里面有大量的海外盗版资源网站，更容易找到我们需要的内容。**
 
 如果你从外国资源网站下载好游戏，你会发现整个压缩包足够“纯净”。IIDX是街机软件，从设计之初就从未考虑过在正常PC上运行。
 
@@ -120,7 +118,7 @@ IIDX插件需要简单的修改才能支持IIDX30，如果你有Typescript代码
 
 **pcbid**：机台基板ID，类似网卡的MAC地址，IIDX联网时需要作为身份标示，唯一。
 
-**离线服务器**：由于IIDX默认会访问服务器检测，不联网游戏则无法运行，所以需要一个伪造e-amusement服务器正在维护中的离线效果。
+**离线服务器**：由于IIDX默认会访问服务器检测，不联网游戏则无法运行，所以需要架设本地服务器，伪造e-amusement服务器正在维护中的效果。
 
 **ICC**：e-pass卡模拟器，全写目前不明。
 
