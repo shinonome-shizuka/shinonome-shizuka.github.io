@@ -42,8 +42,8 @@ Control is Power.
   - `id`：strava账号id，从小组件src里复制即可
   - `token`：授权token，从小组件src里复制即可
   - `type`：`activity-summary`或者`latest-rides`
-- [x] static-shortcodes
-  - 用来调用非md格式的md页面，主要为Fountain语法写的剧本
+- [ ] Bilibili视频链接shortcodes
+
 
 ## Articles To-do
 
@@ -51,6 +51,7 @@ Control is Power.
 - [x] 搬运其他地方的稿子
 - [x] 街霸6教学的图要加
 - [x] 七牛云海外图床域名配置完成
+- [ ] 七牛云海外图床域名修复（theworldr4x.zone -> theworldr4.eu.org）
 - [ ] 准备VAM的折腾新文章
 - [ ] 准备一篇《蝇王》读后感
 - [ ] 准备一篇《骆驼祥子》读后感

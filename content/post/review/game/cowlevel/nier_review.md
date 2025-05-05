@@ -2,9 +2,6 @@
 title: '改个名字直白标题尼尔评测'
 date: 2018-03-27T16:51:25+08:00
 lastmod: 2018-03-27T19:48:47+08:00
-# author: Author Name
-# avatar: /img/author.jpg
-# authorlink: https://author.site
 cover: 'https://steamuserimages-a.akamaihd.net/ugc/84847123375454114/0BC11D054F959E407860CA0C819E3F882EE8D8FF/'
 images:
   - https://steamuserimages-a.akamaihd.net/ugc/84847123375454114/0BC11D054F959E407860CA0C819E3F882EE8D8FF/
