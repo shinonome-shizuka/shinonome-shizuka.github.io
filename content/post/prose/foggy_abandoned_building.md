@@ -5,7 +5,7 @@ lastmod: 2022-11-11T11:12:22+08:00
 # author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: 'https://image.theworldr4x.zone/Capture-2024-05-23-131022.png'
+cover: 'https://image.theworldr4.eu.org/Capture-2024-05-23-131022.png'
 categories:
   - 散文
 tags:
