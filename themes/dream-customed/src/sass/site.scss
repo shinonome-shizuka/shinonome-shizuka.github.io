@@ -254,6 +254,31 @@ body {
 }
 
 .dream-single {
+  .post-cover {
+    margin: -1.14285714em -1.14285714em 1.5rem -1.14285714em;
+
+    img {
+      width: calc(100% + 2.28571428em);
+      height: auto;
+      margin-left: -1.14285714em;
+      margin-right: -1.14285714em;
+      border-radius: 0;
+      box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 1px 1px rgba(0, 0, 0, 0.04),
+        0 0 0 1px rgba(0, 0, 0, 0.02);
+      transition: all 1s ease;
+      display: block;
+
+      &:hover {
+        box-shadow:
+          0 2px 4px rgba(0, 0, 0, 0.08),
+          0 1px 2px rgba(0, 0, 0, 0.06),
+          0 0 0 1px rgba(0, 0, 0, 0.02);
+      }
+    }
+  }
+
   h1.ui.large.header {
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
@@ -261,21 +286,343 @@ body {
     .sub.header {
       display: flex;
       justify-content: space-between;
+      align-items: flex-end;
 
       @media screen and (max-width: 1024px) {
         flex-direction: column;
         justify-content: unset;
+        align-items: flex-start;
       }
     }
   }
 
-  .cover {
-    margin-bottom: 1.5rem;
-  }
-
+  
   .ui.inverted.segment {
     blockquote {
       color: $white60;
+    }
+  }
+
+  // 文章内容区域样式
+  .main {
+    padding: 0 20px;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+
+  // 文章段落样式
+  .main p {
+    margin-bottom: 1.2em;
+    text-align: justify;
+  }
+
+  // 标题样式
+  .main h1,
+  .main h2,
+  .main h3,
+  .main h4,
+  .main h5,
+  .main h6 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 1.4;
+  }
+
+  // 列表样式
+  .main ul,
+  .main ol {
+    margin-bottom: 1.2em;
+    padding-left: 2em;
+  }
+
+  .main li {
+    margin-bottom: 0.5em;
+    line-height: 1.8;
+  }
+
+  // 引用样式
+  .main blockquote {
+    margin: 1.5em -20px;
+    padding: 1em 20px;
+    border-left: 4px solid #666;
+    background-color: #f5f5f5;
+    border-radius: 0 4px 4px 0;
+    font-style: italic;
+    color: #444;
+    line-height: 1.8;
+    text-align: center;
+    position: relative;
+    width: calc(100% + 40px);
+
+    // 引用前的装饰符
+    &::before {
+      content: '"';
+      position: absolute;
+      top: -0.7em;
+      left: 0.3em;
+      font-size: 3em;
+      color: #666;
+      font-family: Georgia, serif;
+      opacity: 0.6;
+      z-index: 1;
+    }
+
+      }
+
+  // 代码样式
+  .main code {
+    background-color: #f5f5f5;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+
+  .main pre {
+    background-color: #f5f5f5;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+    line-height: 1.6;
+  }
+
+  // 链接样式
+  .main a {
+    color: #0066cc;
+    text-decoration: none;
+    border-bottom: 1px dotted #0066cc;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: #004499;
+      border-bottom-style: solid;
+    }
+  }
+
+  // 文章内容中的图片水平居中
+  .main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.06),
+      0 1px 1px rgba(0, 0, 0, 0.04),
+      0 0 0 1px rgba(0, 0, 0, 0.02);
+    transition: all 1s ease;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+      box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.08),
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 0 0 1px rgba(0, 0, 0, 0.02),
+        inset 0 0 0 0.5px #eee;
+    }
+  }
+
+  // 图片描述样式
+  .main .img-desc {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    font-style: italic;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: linear-gradient(to bottom, rgba(240, 240, 240, 0.8), rgba(245, 245, 245, 0.9));
+    padding: 0 10px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #eee;
+    border-top: none;
+    transform: translateY(-100%);
+    margin-top: -1px; /* 与图片无缝连接 */
+
+    &.expanded {
+      max-height: 100px;
+      opacity: 1;
+      padding: 8px 10px;
+      transform: translateY(0);
+    }
+  }
+
+  // 图片容器样式
+  .main .img-container {
+    margin: 20px 0;
+    position: relative;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px;
+      box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 1px 1px rgba(0, 0, 0, 0.04),
+        0 0 0 1px rgba(0, 0, 0, 0.02);
+      max-width: 100%;
+      height: auto;
+      transition: all 1s ease;
+      cursor: pointer;
+      position: relative;
+
+      &:hover {
+        box-shadow:
+          0 2px 4px rgba(0, 0, 0, 0.08),
+          0 1px 2px rgba(0, 0, 0, 0.06),
+          0 0 0 1px rgba(0, 0, 0, 0.02),
+          inset 0 0 0 0.5px #eee;
+      }
+    }
+
+    .img-desc {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  // 图片描述提示图标
+  .img-desc-toggle {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+  }
+
+  .img-container:hover .img-desc-toggle {
+    opacity: 1;
+  }
+
+  // 响应式设计
+  @media screen and (max-width: 768px) {
+    .main {
+      padding: 0 20px;
+      font-size: 15px;
+    }
+
+    .main img:hover {
+      box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.08),
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 0 0 1px rgba(0, 0, 0, 0.02),
+        inset 0 0 0 0.5px #eee;
+    }
+
+    .img-desc-toggle {
+      opacity: 1;
+      bottom: 5px;
+      right: 5px;
+    }
+
+    .main blockquote {
+      margin: 1.5em -20px;
+      padding: 1em 20px;
+      width: calc(100% + 40px);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .main {
+      padding: 0 15px;
+      font-size: 14px;
+    }
+
+    .main blockquote {
+      margin: 1.5em -15px;
+      padding: 1em 15px;
+      width: calc(100% + 30px);
+    }
+  }
+}
+
+// 昼夜主题适配
+.inverted {
+  .dream-single .post-cover img {
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.2),
+      0 1px 1px rgba(0, 0, 0, 0.15),
+      0 0 0 1px rgba(255, 255, 255, 0.05);
+
+    &:hover {
+      box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.25),
+        0 1px 2px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+    }
+  }
+
+  .dream-single .main .img-desc {
+    color: rgba(255, 255, 255, 0.7);
+    background: linear-gradient(to bottom, rgba(40, 40, 40, 0.8), rgba(50, 50, 50, 0.9));
+    border-color: #444;
+
+    &.expanded {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .img-desc-toggle {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  // 昼夜主题的引用样式
+  .dream-single .main blockquote {
+    background-color: #2a2a2a;
+    border-left-color: #888;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 4px 4px 0;
+  }
+
+  // 确保夜间模式blockquote样式优先级更高
+  .inverted .dream-single .main blockquote,
+  .inverted .ui.inverted.segment blockquote {
+    background-color: #2a2a2a !important;
+    border-left-color: #888 !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    position: relative;
+    margin: 1.5em -20px;
+    padding: 1em 20px;
+    width: calc(100% + 40px);
+
+    
+      }
+
+  // 昼夜主题的接触阴影适配
+  .dream-single .main img,
+  .dream-single .main .img-container img {
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.2),
+      0 1px 1px rgba(0, 0, 0, 0.15),
+      0 0 0 1px rgba(255, 255, 255, 0.05);
+
+    &:hover {
+      box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.25),
+        0 1px 2px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
     }
   }
 }

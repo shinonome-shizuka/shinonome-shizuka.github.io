@@ -257,7 +257,48 @@ body .os-host>.os-padding>.os-viewport>.os-content {
 }
 
 .dream-single .ui.inverted.segment blockquote {
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2a2a2a;
+    border-left-color: #888;
+    border-radius: 0 4px 4px 0;
+}
+
+/* 确保夜间模式blockquote样式优先级更高 */
+.inverted .dream-single .main blockquote,
+.inverted .ui.inverted.segment blockquote {
+    background-color: #2a2a2a !important;
+    border-left-color: #888 !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* 夜间模式的引用装饰符 */
+.inverted .dream-single .main blockquote::before,
+.inverted .ui.inverted.segment blockquote::before {
+    content: '"';
+    position: absolute;
+    top: -0.7em;
+    left: 0.3em;
+    font-size: 3em;
+    color: #888;
+    font-family: Georgia, serif;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.inverted .dream-single .main blockquote::after,
+.inverted .ui.inverted.segment blockquote::after {
+    content: '"';
+    position: absolute;
+    bottom: -1.6em;
+    right: 0.3em;
+    font-size: 3em;
+    color: #888;
+    font-family: Georgia, serif;
+    opacity: 0.8;
+    z-index: 1;
 }
 
 .dream-share a {
@@ -387,4 +428,311 @@ body .os-host>.os-padding>.os-viewport>.os-content {
 
 .timeSummary {
     margin-top: 1rem;
+}
+
+/* 文章内容区域样式 */
+.dream-single .main {
+    padding: 0 40px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* 文章段落样式 */
+.dream-single .main p {
+    margin-bottom: 1.2em;
+    text-align: justify;
+}
+
+/* 标题样式 */
+.dream-single .main h1,
+.dream-single .main h2,
+.dream-single .main h3,
+.dream-single .main h4,
+.dream-single .main h5,
+.dream-single .main h6 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 1.4;
+}
+
+/* 列表样式 */
+.dream-single .main ul,
+.dream-single .main ol {
+    margin-bottom: 1.2em;
+    padding-left: 2em;
+}
+
+.dream-single .main li {
+    margin-bottom: 0.5em;
+    line-height: 1.8;
+}
+
+/* 引用样式 */
+.dream-single .main blockquote {
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    border-left: 4px solid #666;
+    background-color: #f5f5f5;
+    border-radius: 0 4px 4px 0;
+    font-style: italic;
+    color: #444;
+    line-height: 1.8;
+    text-align: center;
+    position: relative;
+}
+
+/* 引用前的装饰符 */
+.dream-single .main blockquote::before {
+    content: '"';
+    position: absolute;
+    top: -0.7em;
+    left: 0.3em;
+    font-size: 3em;
+    color: #666;
+    font-family: Georgia, serif;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+/* 引用后的装饰符 */
+.dream-single .main blockquote::after {
+    content: '"';
+    position: absolute;
+    bottom: -1.6em;
+    right: 0.3em;
+    font-size: 3em;
+    color: #666;
+    font-family: Georgia, serif;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+/* 昼夜主题的引用样式 */
+.inverted .dream-single .main blockquote {
+    background-color: #2a2a2a;
+    border-left-color: #888;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 4px 4px 0;
+}
+
+/* 代码样式 */
+.dream-single .main code {
+    background-color: #f5f5f5;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.dream-single .main pre {
+    background-color: #f5f5f5;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+    line-height: 1.6;
+}
+
+/* 链接样式 */
+.dream-single .main a {
+    color: #0066cc;
+    text-decoration: none;
+    border-bottom: 1px dotted #0066cc;
+    transition: all 0.2s ease;
+}
+
+.dream-single .main a:hover {
+    color: #004499;
+    border-bottom-style: solid;
+}
+
+/* 响应式设计 - 移动端调整 */
+@media (max-width: 768px) {
+    .dream-single .main {
+        padding: 0 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dream-single .main {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+}
+
+/* 文章内容中的图片水平居中 */
+.dream-single .main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 1px 1px rgba(0, 0, 0, 0.04),
+        0 0 0 1px rgba(0, 0, 0, 0.02);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+/* 图片悬停效果 */
+.dream-single .main img:hover {
+    border: 0.5px solid #eee;
+    box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.08),
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 0 0 1px rgba(0, 0, 0, 0.02);
+}
+
+/* 图片描述样式 */
+.dream-single .main .img-desc {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    font-style: italic;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: linear-gradient(to bottom, rgba(240, 240, 240, 0.8), rgba(245, 245, 245, 0.9));
+    padding: 0 10px;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #eee;
+    border-top: none;
+    transform: translateY(-100%);
+    margin-top: -1px; /* 与图片无缝连接 */
+}
+
+/* 图片描述展开状态 */
+.dream-single .main .img-desc.expanded {
+    max-height: 100px;
+    opacity: 1;
+    padding: 8px 10px;
+    transform: translateY(0);
+}
+
+/* 昼夜主题适配 */
+.inverted .dream-single .main .img-desc {
+    color: rgba(255, 255, 255, 0.7);
+    background: linear-gradient(to bottom, rgba(40, 40, 40, 0.8), rgba(50, 50, 50, 0.9));
+    border-color: #444;
+}
+
+.inverted .dream-single .main .img-desc.expanded {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* 图片描述提示图标 - 昼夜主题适配 */
+.inverted .img-desc-toggle {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* 昼夜主题的接触阴影适配 */
+.inverted .dream-single .main img,
+.inverted .dream-single .main .img-container img {
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.2),
+        0 1px 1px rgba(0, 0, 0, 0.15),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.inverted .dream-single .main img:hover,
+.inverted .dream-single .main .img-container img:hover {
+    box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.25),
+        0 1px 2px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+/* 图片圆角状态 - 描述关闭时 */
+.dream-single .main .img-container {
+    position: relative;
+}
+
+.dream-single .main .img-container img {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* 图片圆角状态 - 描述打开时 */
+.dream-single .main .img-container.img-desc-open img {
+    border-radius: 8px 8px 0 0; /* 只保留上圆角 */
+}
+
+/* 图片容器样式 */
+.dream-single .main .img-container {
+    margin: 20px 0;
+    position: relative;
+    display: inline-block; /* 让容器宽度适应内容 */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 图片容器内的图片和描述 */
+.dream-single .main .img-container .img-desc {
+    display: block;
+}
+
+.dream-single .main .img-container img {
+    border-radius: 8px;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 1px 1px rgba(0, 0, 0, 0.04),
+        0 0 0 1px rgba(0, 0, 0, 0.02);
+    max-width: 90%;
+    height: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.dream-single .main .img-container img:hover {
+    border: 0.5px solid #eee;
+    box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.08),
+        0 1px 2px rgba(0, 0, 0, 0.06),
+        0 0 0 1px rgba(0, 0, 0, 0.02);
+}
+
+/* 图片描述提示图标 */
+.img-desc-toggle {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.img-container:hover .img-desc-toggle {
+    opacity: 1;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .dream-single .main img:hover {
+        border: 0.5px solid #eee;
+    }
+
+    .img-desc-toggle {
+        opacity: 1;
+        bottom: 5px;
+        right: 5px;
+    }
 }

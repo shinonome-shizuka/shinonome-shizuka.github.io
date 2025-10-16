@@ -40,6 +40,11 @@
   {{ end }}
   <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
     <section class="ui top attached segment">
+      {{ if and .Params.Cover .Site.Params.showSummaryCoverInPost }}
+      <div class="post-cover">
+        <img src="{{ .Params.Cover }}" />
+      </div>
+      {{ end }}
       <header>
         <h1 class="ui large header">
           {{- .Title -}} 
@@ -104,10 +109,6 @@
       </header>
 
       <article class="main">
-        {{ if and .Params.Cover .Site.Params.showSummaryCoverInPost }}
-        <img class="cover" src="{{ .Params.Cover }}" />
-        {{ end }}
-
         {{ .Content | emojify }}
       </article>
     </section>
@@ -189,4 +190,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
 <script src="{{ "/js/post.js" | relURL }}" defer></script>
+<script src="{{ "/js/img-desc.js" | relURL }}" defer></script>
 {{ end }}
