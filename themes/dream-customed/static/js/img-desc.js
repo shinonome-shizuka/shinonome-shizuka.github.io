@@ -54,6 +54,10 @@ function addDescriptionToggle(container, description) {
     // 检查是否已经有描述
     if (container.querySelector('.img-desc')) return;
 
+    // 获取图片元素
+    const img = container.querySelector('img');
+    if (!img) return;
+
     // 创建描述元素
     const descElement = document.createElement('div');
     descElement.className = 'img-desc';
@@ -69,6 +73,42 @@ function addDescriptionToggle(container, description) {
     container.appendChild(descElement);
     container.appendChild(toggleBtn);
 
+    // 设置描述宽度与图片宽度一致，并调整开关位置
+    function updateDescWidthAndTogglePosition() {
+        const imgWidth = img.offsetWidth;
+        descElement.style.width = imgWidth + 'px';
+
+        // 调整开关位置，让它始终相对于图片定位
+        const imgRect = img.getBoundingClientRect();
+        const containerRect = container.getBoundingClientRect();
+
+        // 计算开关相对于容器的位置
+        const relativeBottom = containerRect.bottom - imgRect.bottom + 10;
+        const relativeright = containerRect.right - imgRect.right + 10; 
+
+        if (descElement.classList.contains('expanded')) {
+            // 描述展开时，开关位置在图片底部
+            toggleBtn.style.bottom = relativeBottom + 'px';
+        } else {
+            // 描述收起时，开关位置在容器底部 10px
+            toggleBtn.style.bottom = '10px';
+            toggleBtn.style.right =  relativeright + 'px';
+        }
+    }
+
+    // 初始化宽度和位置
+    updateDescWidthAndTogglePosition();
+
+    // 在图片加载完成后更新宽度
+    if (img.complete) {
+        updateDescWidthAndTogglePosition();
+    } else {
+        img.addEventListener('load', updateDescWidthAndTogglePosition);
+    }
+
+    // 在窗口大小改变时更新宽度
+    window.addEventListener('resize', updateDescWidthAndTogglePosition);
+
     // 为切换按钮添加事件
     toggleBtn.addEventListener('click', function(e) {
         e.stopPropagation();
@@ -78,22 +118,33 @@ function addDescriptionToggle(container, description) {
 
 function toggleDescription(container) {
     const desc = container.querySelector('.img-desc');
-    if (!desc) return;
+    const toggleBtn = container.querySelector('.img-desc-toggle');
+    const img = container.querySelector('img');
+    if (!desc || !toggleBtn || !img) return;
 
     const isExpanded = desc.classList.contains('expanded');
 
     if (isExpanded) {
         desc.classList.remove('expanded');
         container.classList.remove('img-desc-open'); // 移除打开状态的类
+        toggleBtn.innerHTML = 'i';
+
+        // 重置开关位置
+        toggleBtn.style.bottom = '10px';
     } else {
         desc.classList.add('expanded');
         container.classList.add('img-desc-open'); // 添加打开状态的类
-    }
+        toggleBtn.innerHTML = '−';
 
-    // 更新切换按钮的文本
-    const toggleBtn = container.querySelector('.img-desc-toggle');
-    if (toggleBtn) {
-        toggleBtn.innerHTML = isExpanded ? 'i' : '−';
+        // 计算并设置开关位置
+        setTimeout(() => {
+            const imgRect = img.getBoundingClientRect();
+            const containerRect = container.getBoundingClientRect();
+            const relativeBottom = containerRect.bottom - imgRect.bottom + 10;
+            const relativeright = containerRect.right - imgRect.right + 10; 
+            toggleBtn.style.bottom = relativeBottom + 'px';
+            toggleBtn.style.right =  relativeright + 'px';
+        }, 10); // 短暂延迟确保描述已经展开
     }
 }
 

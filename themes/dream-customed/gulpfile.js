@@ -1,9 +1,7 @@
 const { src, dest, watch, parallel } = require('gulp')
-const sass = require('gulp-sass')
+const sass = require('gulp-sass')(require('sass'))
 const babel = require('gulp-babel')
 const uglify = require('gulp-uglify')
-
-sass.compiler = require('node-sass')
 
 const StylesEntry = './src/sass/**/*.scss'
 const StylesOutput = './static/css'
