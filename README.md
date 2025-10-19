@@ -51,13 +51,14 @@ Control is Power.
 - [x] 搬运其他地方的稿子
 - [x] 街霸6教学的图要加
 - [x] 七牛云海外图床域名配置完成
-- [ ] 七牛云海外图床域名修复（theworldr4x.zone -> theworldr4.eu.org）
+- [x] 七牛云海外图床域名修复（`theworldr4x.zone` -> `theworldr4.eu.org`）
 - [ ] 准备VAM的折腾新文章
 - [ ] 准备一篇《蝇王》读后感
 - [ ] 准备一篇《骆驼祥子》读后感
 - [ ] 把炸了的图都换成七牛云图床
+  - [ ] 把所有的 `tva1.sinaimg.cn` 换成 `image.theworldr4.eu.org`
 
 ## Time to Rewrite
 
 - [ ] 重写DJMAX新手入坑指南
-- [ ] 重写IIDX好弟弟笔记
+- [x] 重写IIDX好弟弟笔记 （这篇文章被 Konami 干了，我要说 Fuck Konami）

@@ -12,7 +12,7 @@ categories:
 tags:
   - 奶牛关
   - 游戏
-draft: false
+draft: true
 ---
 
 这篇文章是我开始在网络上发表观点的起源，对我来说有特别的意义。
