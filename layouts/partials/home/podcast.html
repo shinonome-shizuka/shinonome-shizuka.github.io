@@ -1,0 +1,30 @@
+{{/* longbeach-shore · 02 最新播客
+   固定渲染一集最新播客，RSS.com embed iframe。
+*/}}
+{{ $src := "https://player.rss.com/side-b/2893847?theme=light&v=2" }}
+{{ $title := "00.1 电子游戏的繁荣？泡沫？这很重要" }}
+{{ $height := "202px" }}
+{{ $fallback := "https://rss.com/podcasts/side-b/2893847" }}
+{{ $sectionLabel := "最新播客" }}
+
+<section class="entrance-podcast">
+  <h2 class="entrance-podcast__head mt-8 mb-10">{{ $sectionLabel }}</h2>
+
+  <article class="entrance-podcast__card">
+    <div class="entrance-podcast__frame">
+      <iframe
+        src="{{ $src }}"
+        width="100%"
+        height="{{ $height }}"
+        title="{{ $title }}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        scrolling="no"
+        loading="lazy"
+      >
+        <a href="{{ $fallback }}" target="_blank" rel="external">{{ $title }}</a>
+      </iframe>
+    </div>
+  </article>
+</section>
