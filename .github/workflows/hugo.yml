@@ -48,6 +48,33 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Update category history snapshot
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, re, glob, datetime
+          root = "content/posts"
+          snap = {}
+          for f in glob.glob(f"{root}/**/index.md", recursive=True):
+              text = open(f, encoding="utf-8").read()
+              if re.search(r"^draft:\s*true", text, re.M):
+                  continue
+              m = re.search(r"^categories:\s*\n((?:\s+-\s+.*\n)+)", text, re.M)
+              if not m: continue
+              for line in m.group(1).splitlines():
+                  cat = re.sub(r"^\s+-\s+", "", line).strip()
+                  if cat: snap[cat] = snap.get(cat, 0) + 1
+          out = {
+            "_meta": {
+              "last_updated": datetime.datetime.utcnow().isoformat() + "+00:00",
+              "note": "snapshot for categories DISTRIBUTION diff",
+            },
+            "snapshot": snap,
+          }
+          os.makedirs("data", exist_ok=True)
+          with open("data/category_history.json", "w", encoding="utf-8") as f:
+              json.dump(out, f, ensure_ascii=False, indent=2, sort_keys=True)
+          print(f"snapshot: {len(snap)} categories, {sum(snap.values())} posts")
+          PYEOF
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules

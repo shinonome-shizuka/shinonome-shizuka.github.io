@@ -1,5 +1,7 @@
 ---
-title: '《忍者龙剑传》系列评论：动作游戏的未来方向'
+title: '动作游戏的未来方向'
+subtitle: '《忍者龙剑传》系列评论'
+shortTitle: '忍龙4评测：聊聊动作游戏'
 date: 2025-03-20T23:54:57+08:00
 lastmod: 2025-03-20T23:54:57+08:00
 cover: 'https://images.unsplash.com/photo-1623913519265-1974e1e90bd2'

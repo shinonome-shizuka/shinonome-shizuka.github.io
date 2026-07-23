@@ -1,5 +1,10 @@
 ---
-title: '《忍者龙剑传 4》批评：战死的硫酸脸和重生的黑龙'
+title: '战死的硫酸脸和重生的黑龙'
+subtitle: '《忍者龙剑传4》批评'
+shortTitle: '忍龙4评测，聊聊战死的硫酸脸'
+associate:
+  url: '/tags/%E5%BF%8D%E8%80%85%E9%BE%99%E5%89%91%E4%BC%A0/'
+  label: '忍者龙剑传4'
 date: 2026-04-23T07:21:49Z
 lastmod: 2026-06-26T07:21:49Z
 cover: 'https://image.theworldr4.eu.org/ng4_ss_01.jpg'

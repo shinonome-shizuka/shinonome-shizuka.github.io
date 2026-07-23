@@ -123,6 +123,15 @@
         <span class="entrance-card-meta__value">{{ .ReadingTime }}</span>
         <span class="entrance-card-meta__label">分钟</span>
       </span>
+      {{ with $page.Params.associate }}
+        {{ $aUrl := "" }}{{ $aLabel := "" }}
+        {{ if reflect.IsMap . }}
+          {{ $aUrl = .url }}{{ $aLabel = or .label .url }}
+        {{ else }}
+          {{ $aUrl = . }}{{ $aLabel = . }}
+        {{ end }}
+        <a href="{{ $aUrl }}" rel="noopener noreferrer" target="_blank" class="card-associate">{{ $aLabel }}</a>
+      {{ end }}
     </div>
   </div>
 </article>

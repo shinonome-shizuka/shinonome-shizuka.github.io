@@ -1,0 +1,51 @@
+# ============================================================================
+# Tags Tree · 长滩后院父子关系映射
+# ============================================================================
+# schema = 扁平 list，每项含：
+#   - slug:    与文章 frontmatter tags 完全一致（含中文 / 大小写）
+#   - parent:  父级 slug（空或缺 = 顶层）  
+#   - group:   语义分组（玩法 / 平台 / 主题 ...）
+# 增删 tag → 编辑这里 + 同步文章 frontmatter
+# ============================================================================
+
+# ---------- 玩法 ----------
+- { slug: 动作游戏/ACT,         parent: 动作游戏, group: 玩法 }
+- { slug: 动作角色扮演/ARPG,    parent: 动作游戏, group: 玩法 }
+- { slug: 格斗游戏/FTG,         parent: 动作游戏, group: 玩法 }
+- { slug: 步行模拟游戏/W-SIM,    parent: 动作游戏, group: 玩法 }
+- { slug: 角色扮演/RPG,         parent: 动作游戏, group: 玩法 }
+- { slug: 电子化桌面角色扮演游戏/C-TRPG, parent: 动作游戏, group: 玩法 }
+- { slug: 动作游戏,                                     group: 玩法 }
+- { slug: 音乐游戏/MUG,                                   group: 玩法 }
+- { slug: 音乐游戏,                                       group: 玩法 }
+
+# ---------- 平台 ----------
+- { slug: 小黑盒,                                               group: 平台 }
+- { slug: 奶牛关,                                               group: 平台 }
+- { slug: 我乐多屋,                                             group: 平台 }
+- { slug: 明日方舟,                                             group: 平台 }
+
+# ---------- 主题 ----------
+- { slug: 成长,                                                 group: 主题 }
+- { slug: 学习,                                                 group: 主题 }
+- { slug: 思考,                                                 group: 主题 }
+- { slug: 故事,                                                 group: 主题 }
+- { slug: 爱情,                                                 group: 主题 }
+- { slug: 青春,                                                 group: 主题 }
+- { slug: 人文,                                                 group: 主题 }
+- { slug: 人生,                                                 group: 主题 }
+- { slug: 俗世词话,                                             group: 主题 }
+- { slug: 文语杂韵,                                             group: 主题 }
+- { slug: 剑客赋长歌,                                           group: 主题 }
+- { slug: 路上闲谈,                                             group: 随笔 }
+- { slug: 北京,                                                 group: 随笔 }
+- { slug: 游语者,                                               group: 随笔 }
+- { slug: 短篇,                                                 group: 随笔 }
+- { slug: 生活,                                                 group: 核心 }
+- { slug: 游戏,                                                 group: 核心 }
+- { slug: 电影,                                                 group: 核心 }
+- { slug: 沪漂随想,                                             group: 个人 }
+
+# ---------- 作品 ----------
+- { slug: 忍者龙剑传,                                           group: 作品 }
+- { slug: 传颂之物：彼岸的归根者,                               group: 作品 }

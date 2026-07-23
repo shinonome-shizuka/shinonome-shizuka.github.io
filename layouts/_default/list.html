@@ -59,11 +59,16 @@
 
     {{/* view: timeline */}}
     {{ if eq $view "timeline" }}
+      {{/*
+        ponytail: 排序切换器 sort-toggle 已下线（2026-07-22）
+          服务端方案需要 querystring 函数 + 适配所有 view，不值得为单 view 折腾。
+          重排需求存于此，留给后续用 taxonomy / hugo-query 重新设计再说。
+      */}}
       <section class="article-timeline w-full">
         {{ if not $orderByWeight }}
           {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
             {{ if $groupByYear }}
-              <h2 class="article-timeline__year mt-8 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+              <h2 class="article-timeline__year mt-8 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300" data-year="{{ .Key }}">
                 {{ .Key }}
               </h2>
             {{ end }}

@@ -3,15 +3,23 @@ copyright = '不可商用，转载署名，标注原地址即可。</br>@Copyrig
 googleAnalytics = '326384852'
 defaultContentLanguage = 'zh'
 languageCode = 'zh-Hans'
-theme = 'dream-customed'
-title = '闲人后院'
+theme = 'blowfish-shore'
+title = '长滩后院'
 # disqusShortname = 'shinonome-shizuka-github-io'
 hasCJKLanguage = true
 ignoreLogs = ['warning-goldmark-raw-html']
 
+# 禁用 blowfish 主题自带的 en 语言（本站纯中文；en 语言会共享 css bundle 导致配色串扰）
+[languages.zh]
+languageName = '中文'
+weight = 1
+[languages.en]
+disabled = true
+weight = 2
+
 [params]
+siteName = '长滩后院'
 accessCount = true
-author = '東雲閑'
 avatar = '/me/avatar.png'
 darkAvatar = '/me/shizuka_new_bbg.png'
 background = "#E3E3E3"
@@ -30,7 +38,6 @@ rss = true
 # dark mode
 backgroundDark = "#14191E"
 # backgroundImageDark = "https://i.imgs.ovh/2023/10/07/LxEe5.png" #这个网站的图片已经炸完了
-dark404 = true
 darkLinkColor = "#005CFF"
 darkNav = true
 defaultDark = true
@@ -52,8 +59,6 @@ steam = "shinonomeshizuka"
 
 siteStartYear = 2020
 
-favicon = "/me/favicon.ico"
-
 highlightjs = true
 # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
 highlightjsExtraLanguages = ["ocaml"]
@@ -68,9 +73,37 @@ showSummaryCoverInPost = true
 # hasTwitterEmbed = true
 # reversePostAndAside = true
 # shareInAside = true
+
+# default cover (长滩后院 SVG 占位 · dusk 风)
+defaultFeaturedImage = "/images/default-cover.svg"
+hotlinkFeatureImage = true
 # fixedNav = true
 collapseBySummary = true
 collapsibleTags = true
+
+[params.author]
+name = '東雲閑'
+image = '/me/avatar.png'
+headline = '无上清凉花满席。'
+
+  [[params.author.links]]
+  email = "shizuka@writeme.com"
+  facebook = "Shinonome.Shizuka"
+  instagram = "whitemage.null"
+  twitter = "Kakoii_Souryo"
+  bandcamp = "maira_yuki"
+  cowlevel = "Shinonomeshizuka"
+  github = "shinonome-shizuka"
+  playstation = "SrvenX-07"
+  steam = "shinonomeshizuka"
+
+[params.homepage]
+layout = 'profile'
+showRecent = true
+showRecentItems = 7
+cardView = true
+# cardViewScreenWidth disabled → use cardview.html (3-col, no fullwidth)
+recentLabel = '最新文章'
 
 [params.advanced]
 # customCSS = ["css/custom.css"]
@@ -80,3 +113,11 @@ collapsibleTags = true
 [params.experimental]
 jsDate = true
 jsDateFormat = "yyyy年MM月dd日"
+
+[params.list]
+showSummary = true
+
+[params.term]
+view = "simple"
+groupByYear = true
+showSummary = true

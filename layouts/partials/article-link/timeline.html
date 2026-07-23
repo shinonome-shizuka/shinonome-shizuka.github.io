@@ -15,6 +15,7 @@
 {{ end }}
 
 <article class="article-link--timeline relative pb-10"
+  data-date="{{ .Date.Unix }}" data-weight="{{ .Weight | default 0 }}"
   {{ with .Params.color }}style="--timeline-color: {{ . }};"{{ end }}>
   {{/* 时间线圆点 */}}
   <span class="article-link--timeline__dot" aria-hidden="true"></span>
@@ -48,7 +49,7 @@
         {{ end }}
         class="not-prose decoration-primary-500 dark:text-neutral text-lg font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2 class="!mt-0 !mb-0 !text-xl">
-          {{ .Title | emojify }}
+          {{ or .Params.shortTitle .Title | emojify }}
           {{ if .Params.externalUrl }}
             <span class="cursor-default align-top text-xs text-neutral-400 dark:text-neutral-500">
               <span class="rtl:hidden">&#8599;</span>
@@ -74,7 +75,7 @@
     {{ end }}
 
     {{ if .Params.showSummary | default (site.Params.list.showSummary | default false) }}
-      <div class="article-link__summary prose dark:prose-invert max-w-fit mt-1 line-clamp-3">
+      <div class="article-link__summary prose dark:prose-invert w-full mt-1 line-clamp-3">
         {{ .Summary | plainify }}
       </div>
     {{ end }}

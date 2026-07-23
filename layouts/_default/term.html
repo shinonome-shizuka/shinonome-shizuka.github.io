@@ -1,0 +1,158 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "term" }}
+  {{ $showHero := .Params.showHero | default site.Params.term.showHero | default false }}
+  {{ if $showHero }}
+    {{ $heroStyle := print "hero/" site.Params.term.heroStyle ".html" }}
+    {{ if templates.Exists ( printf "partials/%s" $heroStyle ) }}
+      {{ partial $heroStyle . }}
+    {{ else }}
+      {{ partial "hero/basic.html" . }}
+    {{ end }}
+  {{- end }}
+
+  {{/* ========== entrance header · 与 /tags/ 总览页同呼吸 ========== */}}
+  {{ $taxonomyCap := "TAG" }}
+  {{ if eq (lower .Data.Plural) "categories" }}{{ $taxonomyCap = "CATEGORY" }}{{ end }}
+  {{ $articleCount := len .Pages }}
+
+  {{/* 反查该 tag 在 data/tags.yaml 中的 group */}}
+  {{ $tagGroup := "" }}
+  {{ $tagSlug := .Data.Term }}
+  {{ range (default (slice) ($.Site.Data.tags | default (slice))) }}
+    {{ if and (not $tagGroup) (eq .slug $tagSlug) }}
+      {{ $tagGroup = .group }}
+    {{ end }}
+  {{ end }}
+
+  <header class="entrance-hero__rail" aria-hidden="true">
+    <span class="entrance-hero__index">II</span>
+    <span class="entrance-hero__index-sep">/</span>
+    <span class="entrance-hero__index-cap">{{ $taxonomyCap }}</span>
+  </header>
+
+  {{ if .Params.showBreadcrumbs | default (site.Params.term.showBreadcrumbs | default false) }}
+    {{ partial "breadcrumbs.html" . }}
+  {{ end }}
+
+  <div class="entrance-hero__title-row">
+    <h1 class="entrance-hero__title">{{ .Title }}</h1>
+  </div>
+
+  <div class="text-sm text-neutral-500 dark:text-neutral-400">
+    <div class="flex flex-row flex-wrap items-center">
+      <span>{{ $articleCount }} 篇文章</span>
+      {{ with $tagGroup }}<span class="px-2 text-primary-500">·</span><span>{{ . }}</span>{{ end }}
+    </div>
+    {{ with .Description }}<div class="mt-1 text-neutral-600 dark:text-neutral-500">{{ . | markdownify }}</div>{{ end }}
+  </div>
+
+  {{ if .Content }}
+    <section class="flex flex-col max-w-full mt-4 mb-5 prose dark:prose-invert lg:flex-row">
+      <div class="min-w-0 min-h-0 max-w-prose">
+        {{ .Content }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ if gt .Pages 0 }}
+    {{ $cardView := .Params.cardView | default (site.Params.term.cardView | default false) }}
+    {{ $cardViewScreenWidth := site.Params.term.cardViewScreenWidth | default false }}
+    {{ $groupByYear := .Params.groupByYear | default (site.Params.term.groupByYear | default false) }}
+    {{ $view := .Params.view | default (site.Params.term.view | default "default") }}
+
+    {{/* view: timeline */}}
+    {{ if eq $view "timeline" }}
+      <section class="article-timeline w-full">
+        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+          {{ if $groupByYear }}
+            <h2 class="article-timeline__year mt-8 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300" data-year="{{ .Key }}">
+              {{ .Key }}
+            </h2>
+          {{ end }}
+          {{ range .Pages }}
+            {{ partial "article-link/timeline.html" . }}
+          {{ end }}
+        {{ end }}
+      </section>
+    {{ else if not $cardView }}
+
+      <section class="space-y-10 w-full">
+        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+          {{ if $groupByYear }}
+            <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+              {{ .Key }}
+            </h2>
+          {{ end }}
+          {{ range .Pages }}
+            {{ partial "article-link/simple.html" . }}
+          {{ end }}
+        {{ end }}
+      </section>
+    {{ else if and $cardView (not $cardViewScreenWidth) }}
+
+      {{ if $groupByYear }}
+
+        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+          <h2 class="mt-12 mb-3 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            {{ .Key }}
+          </h2>
+          <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+            {{ range .Pages }}
+              {{ partial "article-link/card.html" . }}
+            {{ end }}
+          </section>
+        {{ end }}
+
+      {{ else }}
+
+        <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+          {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+            {{ range .Pages }}
+              {{ partial "article-link/card.html" . }}
+            {{ end }}
+          {{ end }}
+        </section>
+      {{ end }}
+
+    {{ else if and $cardView $cardViewScreenWidth }}
+
+      {{ if $groupByYear }}
+
+        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+          <div class="relative w-screen max-w-[1600px] px-[30px] start-[calc(max(-50vw,-800px)+50%)]">
+            <h2 class="mt-12 mb-3 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+              {{ .Key }}
+            </h2>
+            <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+              {{ range .Pages }}
+                {{ partial "article-link/card.html" . }}
+              {{ end }}
+            </section>
+          </div>
+        {{ end }}
+
+      {{ else }}
+
+        <div class="relative w-screen max-w-[1600px] px-[30px] start-[calc(max(-50vw,-800px)+50%)]">
+          <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+            {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+              {{ range .Pages }}
+                {{ partial "article-link/card.html" . }}
+              {{ end }}
+            {{ end }}
+          </section>
+        </div>
+      {{ end }}
+
+    {{ end }}
+
+  {{ else }}
+    <section class="mt-10 prose dark:prose-invert">
+      <p class="py-8 border-t">
+        <em>{{ i18n "term.no_articles" | emojify }}</em>
+      </p>
+    </section>
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+{{ end }}
