@@ -31,15 +31,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: latest
+      # 钉主题 theme.toml 的 [hugoVersion] max 版本；用 latest 易踩到主题不支持的版本
+      HUGO_VERSION: 0.163.3
     steps:
       - name: Install Hugo CLI
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -57,9 +56,12 @@ jobs:
         run: |
           python3 - <<'PYEOF'
           import json, os, re, glob, datetime
-          root = "content/posts"
+          # 项目 content 目录是 post/（单数），且是扁平 .md（不是 leaf bundle index.md）
+          root = "content/post"
           snap = {}
-          for f in glob.glob(f"{root}/**/index.md", recursive=True):
+          for f in glob.glob(f"{root}/**/*.md", recursive=True):
+              if f.endswith("/_index.md"):
+                  continue
               text = open(f, encoding="utf-8").read()
               if re.search(r"^draft:\s*true", text, re.M):
                   continue
