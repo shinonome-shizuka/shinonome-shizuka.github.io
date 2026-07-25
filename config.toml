@@ -99,6 +99,17 @@ headline = '无上清凉花满席。'
   playstation = "SrvenX-07"
   steam = "shinonomeshizuka"
 
+[params.article]
+showTableOfContents = true
+showReadingTime = true
+showWordCount = false
+showEdit = false
+seriesOpened = false
+showPagination = true
+showHeadingAnchors = true
+showHero = false
+showBreadcrumbs = false
+
 [params.homepage]
 layout = 'profile'
 showRecent = true
