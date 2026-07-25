@@ -99,3 +99,12 @@ To check whether embeddings exist, inspect `.gitnexus/meta.json` — the `stats.
 | Index, status, clean, wiki CLI commands | `.claude/skills/gitnexus/gitnexus-cli/SKILL.md` |
 
 <!-- gitnexus:end -->
+
+## Agent skills
+
+Matt Pocock 工程 skill 体系对应的本仓库配置：
+
+- [`docs/agents/domain.md`](docs/agents/domain.md) — domain 词汇与文件结构
+- [`docs/agents/issue-tracker-github.md`](docs/agents/issue-tracker-github.md) — GitHub Issue 约定（labels / pull request）
+
+使用前请先读 [`CONTEXT.md`](CONTEXT.md) 了解站点速记。
